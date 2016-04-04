@@ -1,0 +1,37 @@
+/* ================popup Reservation to Doctor - table===================*/
+.dialog_mreservation_list .medical_reservation_name img {
+	float: left;
+}
+.dialog_mreservation_list .medical_reservation_name .meeting_list{
+	padding-top:10px;
+}
+#medical_reservation_name {
+	padding:0px;
+	padding-bottom: 10px;
+}
+.dialog_mreservation_list .medicalReservationCalendar {
+	width:730px; 
+	float:left; 
+	padding-right:2px
+}
+.dialog_mreservation_list .medicalReservationCalendar .fc-widget-content {
+	cursor: pointer;
+}
+/* ================popup Reservation to Doctor - card===================*/
+.dialog_mreservation .pres_ul_medical_reservation .time_select label {
+    float:left;
+}
+
+.dialog_mreservation .dialog_span {
+	float: left;
+	margin: 5px 10px;
+}
+.dialog_mreservation .comments {
+	margin: 2px 0px;
+}
+.dialog_mreservation ul li input[type="password"] {
+	width: 400px;
+	padding: 5px 10px;
+	margin-top: -4px;
+	float: left;
+}

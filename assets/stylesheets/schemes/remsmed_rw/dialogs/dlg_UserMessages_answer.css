@@ -1,0 +1,10 @@
+/*=======popup User Messages Answer=====*/
+.dialog_UserMessages_answer .pres_ul p{
+	width:auto !important;
+}
+.dialog_UserMessages_answer .pres_ul .comments{
+	margin:0;
+}
+.dialog_UserMessages_answer[style*="width: 490px"] .comments{
+	width:462px;
+}

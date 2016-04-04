@@ -1,0 +1,47 @@
+/*----------popup User Messages-----------*/
+.dialog_user_messages[style*="width: 1023px"] .comments {
+	width:865px;
+}
+.dialog_user_messages .all_panel {
+width: 695px!important;
+}
+.dialog_user_messages .tabs_mess_info .ui-tabs-panel {
+width:663px!important;
+}
+.dialog_user_messages .ui-tabs-vertical .ui-tabs-nav {
+width: 19em!important;
+}
+.all_message li a img {
+	float: left;
+	height: 24px;
+	margin-right: 5px;
+}
+.dialog_user_messages .ui-tabs-vertical .ui-tabs-panel {
+    height: 550px;
+}
+
+.dialog_user_messages .new_message_block {
+    height: 110px;
+    float: left;
+	margin-top: 5px;
+	margin-right:5px;
+}
+.dialog_user_messages .new_message_block .message_send {
+    float: left;
+    width: 535px;
+    height: 32px;
+    margin: 5px 8px 0px 0px;
+    padding: 5px 10px;
+    resize: none;
+}
+.dialog_user_messages .panel_otvet { 
+	float:left;
+    width:500px; 
+}
+.dialog_user_messages .panel_message {
+    float:right;
+    width:500px; 
+}
+.dialog_user_messages .verttab_div:after{
+	left: 17.5em;
+}

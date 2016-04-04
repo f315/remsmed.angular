@@ -1,0 +1,240 @@
+﻿table[border],
+table[border] td{
+	border-style: solid;
+}
+table{
+	width:100%;
+}
+table th {
+    vertical-align: middle;
+}
+table#patient_docs_table,
+table#tbl_list_user_prscr,
+table.comments_table{
+	table-layout:fixed;
+}
+
+/* ===== Table Static===== */
+
+.tableStatic thead td { 
+	padding: 3px 0 2px 0; 
+	text-align: center;  
+}
+.tableStatic thead td:first-child { border-left: none; }
+.tableStatic tbody td { 
+	padding: 2px 10px; 
+	vertical-align: middle; 
+	text-align: left;
+	}
+.tableStatic tbody td:first-child { border-left: none; }
+.tableStatic_all_brd tbody td{
+	border:1px solid !important;
+	padding-left:2px;
+}
+/* ===== DataTable ===== */
+ table.dataTable {
+    margin: 0 auto;
+    width: 100% !important;
+    clear: both;
+    border-collapse: separate;
+}
+table.dataTable td {
+    padding: 6px 12px;
+    color: #666;
+}
+table.dataTable tbody tr:first-child td{
+	border-top: none;
+}
+table.dataTable tfoot td{
+	border-bottom: 0;
+}
+table.dataTable tr>td:first-child{
+	border-left:0;
+}
+table.dataTable td.center,
+table.dataTable td.dataTables_empty {
+    text-align: center;
+}
+table.dataTable thead tr>th:first-child{
+	border-left:0;
+}
+
+table.dataTable tfoot td,
+table.dataTable tfoot th {
+    padding: 10px;
+    text-align: left;
+	vertical-align:middle;
+}
+table.dataTable tfoot tr>th:first-child{
+	border-left: 0;
+}
+table.dataTable tfoot th.textAlignCenter {
+    text-align: center;
+}
+
+table.dataTable .DataTables_sort_wrapper {
+    padding: 3px 20px 3px 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+table.dataTable .DataTables_sort_wrapper span {
+    margin-top: -8px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+}
+.dataTables_wrapper {
+    position: relative;
+    clear: both;
+    margin-top: 10px;
+}
+.dataTables_wrapper ::-ms-clear {
+    display: none;
+}
+
+.dataTables_length, .dataTables_filter, .dataTables_date_range {
+    margin-bottom: 10px;
+}
+.dataTables_date_range {
+    position: relative;
+    padding: 1px 0 1px 5px;
+    float: left;
+}
+.dataTables_length {
+    float: left;
+	line-height:29px;
+}
+.dataTables_filter {
+    float: right;
+    text-align: right;
+}
+.dataTables_paginate {
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+}
+.dataTables_info {
+    clear: both;
+    float: left;
+    margin-top: 10px;
+}
+.textAlignCenter {
+    text-align: center;
+}
+.dataTables_length .sbHolder {
+    width: 70px;
+    float: right;
+    display: inline-block;
+    margin: -7px 0px 0px 10px;
+	top: 8px;
+}
+.dataTables_length .sbHolder .sbSelector {
+    width: 40px;
+}
+.dataTables_length .sbHolder .sbOptions {
+    width: 70px;
+	line-height: 12px;
+}
+/*
+ * Table table_custom
+ */
+ .wr_table_custom{
+	margin:10px 0;
+ }
+ table.table_custom {
+    margin: 0 auto;
+    width: 100%;
+    clear: both;
+    border-collapse: separate;
+}
+
+table.table_custom td {
+    padding: 5px 4px;
+}
+table.table_custom tbody tr:first-child td{
+	border-top: none;
+}
+table.table_custom tfoot td{
+	border-bottom: 0;
+}
+table.table_custom td.center,
+table.table_custom td.table_customs_empty {
+    text-align: center;
+}
+table.table_custom thead tr>th:first-child{
+	border-left:0;
+}
+table.table_custom thead th {
+	padding: 5px 4px;
+}
+
+table.table_custom tfoot td,
+table.table_custom tfoot th {
+    padding: 10px;
+    text-align: left;
+	vertical-align:middle;
+}
+table.table_custom tfoot tr>th:first-child{
+	border-left: 0;
+}
+table.table_custom tfoot th.textAlignCenter {
+    text-align: center;
+}
+/* ========hover row+column in the table_custom =============*/
+table.table_hover{
+	position:relative
+} 
+table.table_hover .pseudo_col {			
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+/* =========== */
+.tbl_list_pats_code td{
+	vertical-align:middle;	
+}
+.tbl_list_pats_code td>div{
+	overflow:auto;
+}
+.tbl_list_pats_code td.td_user_id,
+.tbl_list_pats_code td.td_alerts{
+	text-align:center;
+}
+
+.tbl_list_pats_code td.td_user_id{
+	width:70px;	
+}
+.tbl_list_pats_code td.td_user_phone>div{
+	width:100px;	
+}
+.tbl_list_pats_code td.td_date >div{
+	width:75px;	
+}
+.tbl_list_pats_code td.td_alerts >div{
+	width:70px;	
+}
+.tbl_list_pats_code .choose_patient{
+    display: inline-block;
+	width:70px;
+    font-size: 16px;
+}
+
+.tbl_list_pats_code .choose_patient img {
+    height: 50px;
+    border-radius: 8px;
+}
+
+/* USER PRESCRIPTION TABLE - cant find ???*/
+#tbl_list_user_prscr tfoot .sbHolder {
+    width: 147px;
+}
+#tbl_list_user_prscr tfoot .sbHolder .sbSelector {
+    width: 117px;
+}
+#tbl_list_user_prscr tfoot .sbHolder .sbOptions {
+    width: 147px;
+}

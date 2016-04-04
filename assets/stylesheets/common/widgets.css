@@ -1,0 +1,359 @@
+﻿.wblock{
+	float:left;
+	margin:2px
+}
+.wblock250 {width:246px;}
+.wblock500 {width:496px;}
+.wblock750 {width:746px;}
+.wblock1000 {width:996px;}
+.whcont90 {height:65px}
+.whcont740{height:325px} 
+
+.whead {
+position: relative;
+height: 43px;
+padding-top: 10px;
+cursor: context-menu;
+}
+.wblock250 .whead {
+	width:246px;
+}
+.wblock500 .whead {
+	width:496px;
+}
+.wblock750 .whead {
+	width:746px;
+}
+.wblock1000 .whead {
+	width:996px;
+}
+.whead_name{
+	display: inline-block;
+    margin-left: 25px;
+	vertical-align: middle;
+    text-align: left;
+}
+.wblock250 .whead_name {
+    width: 90px;
+}
+.wblock500 .whead_name {
+    width: 338px;
+}
+.wblock750 .whead_name {
+	width: 587px;
+}
+.wblock1000 .whead_name { 
+	width: 890px;
+}
+.wblock .widget-content-toggle{
+	position: relative;
+	float:left;	
+	box-sizing: border-box;
+	height:161px;
+	min-height:10px;
+	padding: 7px 10px 0 10px;
+	z-index: 5;
+}
+.wblock250 .widget-content-toggle {
+	width:246px;
+ }
+.wblock500 .widget-content-toggle {
+	width:496px;
+ }
+.wblock750 .widget-content-toggle {
+	width:746px;
+}
+.wblock1000 .widget-content-toggle{
+	width: 1000px;
+}
+.whcontAuto .widget-content-toggle{
+	height:auto;
+}
+.whcontAuto .wr_widget_content{
+	height:auto !important;
+}
+.wblock .wbottom {
+	height: 16px;
+	float:left
+}
+.wblock250 .wbottom {
+	width:246px;
+}
+.wblock500 .wbottom {
+	width:496px;
+}
+.wblock750 .wbottom {
+	width:746px;
+}
+.wblock1000 .wbottom {
+	width:1000px;
+}
+.wblock .scroll_content {
+    height: 157px !important;
+    overflow: hidden;
+}
+.wblock.whcontAuto .scroll_content{
+	height:auto !important;
+}
+.wblock250 .widget-content-toggle>.scroll_content{
+	width: 225px;
+}
+.wblock500 .widget-content-toggle>.scroll_content{
+	width: 477px;
+}
+
+.dateevents {
+	text-align: center;
+	margin: 15px 0px;
+}
+
+.wfont {
+    float: left;
+    padding: 0 2px 2px;
+    text-align: center;
+}
+.windex .wfont {
+	text-align: center;
+}
+.wstats .wfont {
+	text-align: left;
+}
+.wfont2 {
+	float:left; 
+	padding:5px; 
+	width: 38px;
+}
+.wfont3 {
+	float:left; 
+	padding:5px; 
+	width: 90px;
+}
+.wblue {
+    float: right;
+    clear: both;
+}
+.windex {
+    float: left;
+    height: 138px;
+    margin: -3px auto 0;
+    padding: 25px 0 10px;
+    text-align: left;
+    width: 112px;
+}
+.windex img {
+	float: left;
+	height: 171px;
+	width: 109px;
+	padding-left: 3px;
+}
+
+.wblock .ui-tabs-vertical .ui-tabs-panel {
+    height: 153px;
+    overflow: hidden;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.wblock .verttab_scroll_content{
+	height:153px;	
+}
+.wblock750 .ui-tabs-vertical .ui-tabs-panel{
+    width: 550px;
+}
+.wblock500 .ui-tabs-vertical .ui-tabs-panel{
+    width: 300px;
+}
+
+/* ============================= */
+.choose_your_side500 {
+	width: 490px;
+	float: left;
+	text-align: center;
+	font-size: 32px;
+	margin-bottom: 10px;
+	margin-top: 60px;
+}
+.choose_your_side750 {
+	width: 740px;
+	float: left;
+	text-align: center;
+	font-size: 32px;
+	margin-bottom: 10px;
+	margin-top: 60px;
+}
+.choose_your_side250 {
+	width: 226px;
+	float: left;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 50px;
+}
+.choose_your_side131 {
+	width: 131px;
+	float: left;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 60px;
+}
+.choose_your_side218 {
+	width: 218px;
+	float: left;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 60px;
+}
+
+.select_patient {
+    text-align: center;
+    float: left;
+    padding-top: 5px;
+    width: 141px;
+}
+.map_block p {
+    width:100%;
+}
+
+.map_block p a {
+    font-size:10px;
+    word-wrap:break-word;
+}
+
+.heart {
+    width:72px; 
+    height:48px;
+    clear:both; 
+    float:left;
+    padding-top: 14px; 
+    margin: 24px 0 0 20px;
+}
+
+.wbstats {
+    float: left;
+    width: 144px;
+    height: 173px;
+    display: none;
+    margin-top: -3px;
+}
+.wstats {
+    float: left;
+    padding: 3px 5px 5px;
+    width: 135px;
+}
+.wplot{
+	float: left;
+	height: 170px;
+}
+.wplot2 {
+    float: left;
+    height: 173px; 
+    width:208px;
+    margin-top: -3px;
+}
+.usercont {float: left; padding: 13px; width: 206px;margin-top: 25px;}
+.username {
+	float: left;
+	width: 95px;
+	text-align: right;
+}
+.username  span{float:left; width:95px}
+
+.userfoto {
+	float: right; 
+	padding: 5px;
+}
+.userfoto  img {float:right}
+
+.bluetable {width: 739px; margin-left: 4px;}
+.bluetable160 {width:160px}
+.bluetable140 {width:140px}
+
+.tcomment {
+	width:22px; 
+	height:22px; 
+	float:left
+	}
+.Box_PatientInfo .widget-content-toggle,
+.Box_PatientLastMeasurements .widget-content-toggle{
+	padding:0 !important;
+}
+.Box_PatientInfo .wr_widget_content,
+.Box_PatientLastMeasurements .wr_widget_content{
+	width:493px !important;
+	height: 170px !important;
+} 
+.Box_PatientDiagnosis .whead_name{
+	width:120px;
+} 
+.radiohead {
+	float:right; 
+	padding: 6px 0px; 
+	margin-top: -9px;
+}
+.radiohead span {
+	float:right; 
+	margin:0px 10px; 
+}
+.wblock .blank {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.wblock .wr_col_index{
+	float:left;
+	width:49%;
+}
+.wblock .wr_col_index+.wr_col_index{
+	float:right;
+}
+/* ------------------- temp: remove to the scheme/mc/widget/Box_PatientReviewResearch.css ------------------  */
+.Box_PatientReviewResearch .options_buttons {
+    height: 50px;
+}
+
+.Box_PatientReviewResearch.box-for-6 .options_buttons {
+    height: 161px;
+    padding-top: 55px;
+}
+
+.Box_PatientReviewResearch.box-for-6 .options_save, 
+.Box_PatientReviewResearch.box-for-6 .options_buttons > a {
+    background: #7abcff;
+    background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee));
+    background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%);
+    background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%);
+    background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%);
+    background: linear-gradient(to bottom, #7abcff 0%,#60abf8 44%,#4096ee 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 );
+    border: none;
+    border-bottom: 2px solid #2A6B8B;
+    border-radius: 10px;
+    color: #fff;
+    width: 89%;
+    text-align: center;
+    height: 23px;
+    position: relative;
+    margin: 0px 11px;
+    box-shadow: 0px 1px 3px rgba(7, 43, 73, 0.56);
+    padding-top: 12px;
+    font-size: 18px;
+    font-family: tahoma;
+}
+
+.Box_PatientReviewResearch.box-for-6 .options_save, 
+.Box_PatientReviewResearch.box-for-6 .options_buttons > a:hover {
+    background: #1D96E0;
+    color: #fff;
+    border: none;
+    box-shadow: inset 0px 1px 13px rgba(7, 43, 73, 0.56);
+    margin-top: 2px;
+}
+
+.Box_PatientReviewResearch.box-for-6 #Box_PatientReviewResearch {
+    display: none;
+}
+/* =============== inner block with round border =================*/
+.wblock .bl_inn_wdj{
+    float: left;
+    clear: both;
+    width: 440px;
+}

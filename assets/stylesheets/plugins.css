@@ -1,0 +1,17 @@
+﻿/* import styles of the plugins*/
+@import "plugins/jquery-ui.css";
+@import "plugins/jCarousel.css";
+@import "plugins/mCustomScrollBar.css";
+@import "plugins/jquery.slider.css";
+@import "plugins/fullcalendar.css";
+@import "plugins/datepick/redmond.datepick.css";
+@import "plugins/validationEngine.jquery.css";
+@import "plugins/timeline.css";
+@import "plugins/tabletools.css";
+@import "plugins/tabletools_jui.css";
+@import "plugins/jquery.jgrowl.css";
+@import "plugins/jstree.min.css";
+@import "plugins/jquery.contextMenu.css";
+@import "plugins/jquery.timeentry.css";
+@import "plugins/jquery.formstyler.css";
+@import "plugins/datepick/jquery-ui-timepicker-addon.css";

@@ -1,0 +1,10 @@
+/* ----------widget Box_Measurements_Endocrinolog (patient journal)---------- */
+#graph-tabs-endocrinolog .index-header {
+    width: 250px;
+}
+#graph-tabs-endocrinolog .index-content {
+    width: 254px;
+}
+.Box_Measurements_Endocrinolog .table_layout td{
+	padding:3px;
+}

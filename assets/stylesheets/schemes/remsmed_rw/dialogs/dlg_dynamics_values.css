@@ -1,0 +1,35 @@
+/* ===========popup Dynamics of the values=================*/
+.dialog_dynamics_values {
+    padding:0px!important;
+    border:none;
+}
+
+.dialog_dynamics_values #modal_dlg_box{
+    float:left;
+    height: 100%;
+}
+.graph-tab{
+    height: 570px !important;
+}
+.dialog_dynamics_values .ui-tabs{
+	margin-top:10px;
+    margin-left:0;
+    width:975px;
+	padding: 0;
+}
+.dialog_dynamics_values .ui-tabs-panel{
+    height:100%;
+    padding: 2px!important;
+}
+.dialog_dynamics_values .ui-tabs-vertical{
+	min-height:390px;
+}
+.dialog_dynamics_values .verttab_div{
+	height:510px;
+}
+.dialog_dynamics_values .verttab_div:after{
+	left: 12.5em;
+}
+.dialog_dynamics_values .ui-tabs-vertical .ui-tabs-nav{
+	width: 12.5em !important;
+}

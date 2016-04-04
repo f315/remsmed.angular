@@ -1,0 +1,15 @@
+/*-------------popup Info of the Doctor-----------*/
+.vconf_list .profile_avatar_min{
+	float:left;
+	width: 71px;
+    height: 71px;
+    padding: 5px;
+	margin-top: 5px;
+}
+.vconf_list .profile_value_min{
+	float:left;
+	width: 370px;
+	margin-left: 10px;
+	word-wrap:break-word;
+	line-height: 25px;
+}

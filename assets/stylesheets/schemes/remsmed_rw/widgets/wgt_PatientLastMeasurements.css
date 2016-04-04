@@ -1,0 +1,6 @@
+/*--------widget Box_PatientLastMeasurements (current value)-----------*/
+div#chart_wellness {
+    width: 214px;
+    margin-top: 0px;
+    height: 170px
+}

@@ -1,0 +1,35 @@
+/* ========== popup Profile ========== */
+.dialog_profile .btn_vitadock_connecting, .dialog_profile .btn_withings_connecting, .dialog_profile .btn_ihealth_connecting {
+	margin-left: 20px;
+    text-decoration: underline;
+}
+.dialog_profile .ui-dialog-content {
+    width: 968px !important;
+}
+.dialog_profile .pres_ul+.pres_ul   {
+	width: 450px;
+    margin-left: 0;
+    float: right;	
+}
+.tabs.profile .prescription .comments {
+    margin: 2px 0px;
+}
+
+.tabs.profile .profile_tab .pres_ul_short {
+    width: 425px; 
+    float: left;
+}
+.tabs.profile .profile_tab .pres_ul_short > li {
+    width: 425px;
+}
+.tabs.profile .inputs_block {
+    float: left; 
+    width: 211px;
+}
+.tabs.profile .inputs_block span {
+    margin: 5px 0px !important;
+}
+.tabs.profile .inputs_block select {
+    margin: 0 0 8px !important;
+}        
+

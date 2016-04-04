@@ -1,0 +1,30 @@
+/*====== box My Journal (Box_Measurements_Endocrinolog) - popup New Measurements ========*/
+.dialog_new_msrm .ui-tabs-vertical .ui-tabs-nav{
+	width: 15em !important;
+}
+.dialog_new_msrm .ui-tabs-vertical .ui-tabs-panel{
+	width: 500px !important;
+}
+.dialog_new_msrm .sliderSpecs input[type=text] {
+    width: 65px;
+}
+.dialog_new_msrm .measurements_pool {
+	width:508px;
+}
+.dialog_new_msrm .measurements_pool p {
+    width: 410px;
+}
+/*============== box Values - popup Values (for the patient)===========*/
+/* stand: mc */
+.dialog_patient_measurements .ui-tabs-vertical .ui-tabs-panel {
+    width: 455px !important;
+}
+.dialog_patient_measurements .measurements_pool {
+	width:463px;
+}
+.dialog_patient_measurements .measurements_pool p {
+    width: 400px;
+}
+.dialog_patient_measurements #msrms_main .new_msrm_tabs {
+    padding: 20px;
+}

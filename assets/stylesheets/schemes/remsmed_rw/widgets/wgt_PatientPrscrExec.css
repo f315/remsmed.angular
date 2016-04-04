@@ -1,0 +1,69 @@
+/* ================== widget Prescriptions Executions =============== */
+.index-content {
+    padding: 0 8px 8px;
+    border-top: 0;
+    overflow:hidden;
+}
+
+.user-msrms-full{
+    width: 292px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.user-msrms-full .index-content {
+    width: 279px !important;
+}
+
+.user-msrms-full .index-header{
+    width:275px !important;
+}
+
+.index-container-msrm .index-content {
+    border-top: 0;
+    padding: 0 8px 8px;
+    width: 187px;
+    float: left;
+}
+
+.index-content p {
+    clear: both;
+    padding:0px; 
+    float: left; 
+    margin-left:10px; 
+    margin-right:10px;
+    word-wrap:break-word;
+    margin-bottom:5px
+}
+.index-content .otvet_block {
+    float: left; 
+    width: 390px; 
+    margin: 0px 10px 3px 20px; 
+    padding: 4px;
+}
+.index-content .otvet_block p {
+    margin-left:0px; 
+    clear:none;
+}
+
+.index-content .otvet_time {margin-top: 3px;}
+.index-header {
+    margin: 5px 0 0 0;
+    padding: 1px 10px;
+	overflow:hidden;
+} 
+.index-content p span {
+    text-align: right; 
+}
+.index_answer {
+    margin-top: 5px;
+    margin-right:15px;
+    float:right;
+}
+.index-container-msrm .index-header {
+    margin: 5px 0 0 0;
+    padding: 1px 10px;
+    width: 183px;
+    float: left;
+}

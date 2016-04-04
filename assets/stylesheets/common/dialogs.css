@@ -1,0 +1,322 @@
+﻿.ui-dialog .ui-dialog-content {
+    padding-bottom: 1em;
+}
+.ui-dialog .ui-tabs-nav:not(.verttab) .ui-tabs-active {
+    /*dont support IE8*/
+    
+    padding-bottom: 1px;
+    padding: 5px 15px;
+}
+.ui-dialog .tabs_nav {
+    margin: 0 1px;
+    height: 22px;
+}
+.ui-dialog[style*='width: 1022px'] .ui-tabs-panel .ui-tabs-panel {
+    width: 767px;
+}
+.ui-dialog[style*='width: 800px'] .ui-tabs-vertical .ui-tabs-panel {
+    width: 510px;
+}
+.wr_data_range {
+    margin-top: 7px;
+}
+.ui-dialog #modal_dlg_box {
+    height: auto !important;
+}
+.ui-dialog .ui_dialog_content_inner.scroll_content {
+    height: 650px;
+}
+.ui-dialog .wr_date {
+    margin-top: 15px;
+}
+.ui-dialog h4 {
+    margin-bottom: 15px;
+}
+.ui-dialog .wr_date {
+    text-align: right;
+}
+.ui-dialog .pres_ul li>p:first-child,
+.ui-dialog .pres_ul li>p:first-child+p {
+    float: left;
+    width: 160px;
+    margin: 0 8px 0 0;
+}
+.ui-dialog .pres_ul li p {
+    padding-top: 0px;
+    font-size: 13px;
+    text-align: right;
+    line-height: 14px;
+    margin: 0 10px 0 17px;
+}
+.ui-dialog .ui-tabs-vertical .verttab_div {
+    float: left;
+}
+.ui-dialog .ui-tabs-vertical .verttab_div {
+    float: left;
+}
+.ui-dialog .ui-tabs-vertical .ui-tabs-nav {
+    float: left;
+    width: 13em;
+    margin-top: -5px;
+    padding: 4px 8px 4px 3px;
+    z-index: 100;
+}
+.ui-dialog .ui-tabs-vertical .ui-tabs-panel {
+    padding: 8px 30px 6px 5px;
+}
+.ui-dialog.dialog_vc_measurements_fullw .ui-tabs-vertical .ui-tabs-panel {
+    padding: 8px 15px 6px 5px;
+}
+.tabs.ui-tabs .graphs.ui-tabs-nav li.ui-tabs-active a,
+.tabs.ui-tabs .graphs.ui-tabs-nav li.ui-state-disabled a,
+.tabs.ui-tabs .graphs.ui-tabs-nav li.ui-tabs-loading a {
+    cursor: text;
+}
+.ui-dialog .pres_ul input[type="text"]+span {
+    margin: 0 3px;
+}
+.ui-dialog .pres_ul p+span {
+    margin-right: 3px;
+}
+.ui-dialog .blank {
+    margin: 30px 0;
+}
+.ui-dialog .pres_ul li.files_list>p {
+    margin-top: 3px !important;
+}
+/*======== Tabs vertical ========*/
+
+.ui-tabs-vertical .ui-tabs-panel {
+    float: right;
+}
+.wblock .wr_widget_content_tabs .wr_ui_tabs_nav,
+.ui-tabs-vertical .ui-tabs-nav {
+    position: absolute;
+    /*for height=100% of the separate vertical line; old - relative*/
+    
+    float: left;
+    box-sizing: border-box;
+    width: 11em;
+    height: 100%;
+    margin-top: -5px;
+    padding: 0;
+    box-shadow: 7px 0 7px -7px rgba(150, 150, 150, 0.57);
+    z-index: 100;
+}
+.ui-dialog .ui-tabs-vertical .ui-tabs-nav {
+    box-shadow: none;
+}
+.ui-tabs-vertical .ui-tabs-nav {
+    position: relative;
+}
+.ui-tabs-vertical .ui-tabs-nav li a {
+    border-bottom: 1px dashed #e0e0e0;
+    width: 100%;
+}
+.ui-tabs-vertical .ui-tabs-nav li {
+    width: 100%;
+    line-height: 25px;
+}
+.ui-dialog .verttab_div:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    box-shadow: 7px 0 7px -7px rgba(150, 150, 150, 0.57);
+}
+/* filter */
+
+.list-search {
+    margin: 8px 0;
+}
+.search-field_ {
+    float: right;
+    width: 380px !important;
+}
+.search-field::-ms-clear {
+    display: none;
+}
+.search-btn {
+    float: left;
+    width: 17px;
+    height: 17px;
+    margin-right: 7px;
+}
+/* -----choice options---- */
+
+.container {
+    /*temp*/
+    
+    float: left;
+    width: 100%;
+}
+.wr_shuttle_options {
+    overflow: hidden;
+}
+.shuttle_options {
+    overflow: hidden;
+}
+.list-cap {
+    margin-bottom: 10px;
+}
+.list-container {
+    float: left;
+    margin: 0 px;
+}
+/*
+.shuttle_options .list-container:first-child{
+	margin: 0;
+}
+*/
+
+.list-search span {
+    float: left;
+    width: 76px;
+}
+.list-search .search-field-left {
+    float: left;
+    margin-right: 182px;
+}
+.msrms-list {
+    width: 430px;
+    height: 460px !important;
+    float: left;
+    padding: 15px;
+}
+.span2 {
+    width: 26px;
+    float: left;
+    margin: 200px 5px 5px 5px;
+}
+.msrm-option {
+    padding: 2px;
+    margin: 6px 3px 2px 1px;
+    cursor: pointer;
+}
+.ui-dialog[style*='width: 1023px'] .wr_table.scroll_content {
+    width: 995px;
+}
+/* ----------???------------- */
+
+#endocrinolog_date_change_buttons {
+    overflow: hidden;
+}
+/* ------------ profile avatar ---------- */
+
+.ui-widget .pres_ul .profile_avatar {
+    padding-left: 3px;
+    padding: 5px;
+}
+/* for img profile_avatar after file upload */
+
+.ui-widget .pres_ul .wr_profile_avatar {
+    margin-left: 166px;
+    /*only for flex*/
+}
+.ui-widget .pres_ul .file_photo_profile {
+     /* width: 250px;
+   margin-bottom: 6px; */
+    /*only for flex*/
+}
+/* ---------------- spisok users --------------------------*/
+/* 	menu Videoconf - popup Videoconf; 
+	menu Reservation for Doctor- popup Reservation List 
+*/
+
+.ui-dialog .calendar_spisok {
+    position: relative;
+    float: left;
+    width: 262px;
+}
+.ui-dialog .calendar_spisok ul {
+    height: 551px;
+}
+.ui-dialog .calendar_spisok ul li {
+    float: left;
+}
+.ui-dialog .calendar_spisok .spisok_left {
+    float: left;
+    width: 195px;
+    padding: 8px 5px 5px;
+    margin-left: 10px;
+}
+.ui-dialog .calendar_spisok .spisok_left img {
+    float: left;
+    height: 30px;
+}
+.ui-dialog .calendar_spisok .spisok_left span {
+    float: left;
+    width: 125px;
+    margin-left: 5px;
+}
+.ui-dialog .calendar_spisok .spisok_right {
+    float: right;
+    width: 17px;
+    padding: 14px;
+}
+/* ---------------- Calendar  --------------------------*/
+/* 	menu Videoconf - popup Videoconf; 
+	menu Reservation for Doctor- popup Reservation List 
+*/
+
+.vconf_calendar {
+    float: left;
+    padding-right: 2px;
+}
+/*====== block Add New Measurements ========*/
+/* 
+	applay: box My Journal (Box_Measurements_Endocrinolog) - popup New Measurements
+*/
+
+.ui-dialog .new_msrm_tabs .verttab_div {
+    height: 315px;
+}
+.ui-dialog .new_msrm_tabs .verttab_div:after {
+    left: 15em;
+}
+.ui-dialog .new_msrm_tabs .measurements_pool {
+    float: right;
+    height: 140px;
+    padding: 10px;
+    overflow: hidden;
+}
+.ui-dialog .new_msrm_tabs .measurements_pool p {
+    float: left;
+    margin: 5px 0px;
+    padding: 2px 8px;
+}
+.ui-dialog .new_msrm_tabs .measurements_pool p span {
+    text-align: right;
+}
+.ui-dialog .new_msrm_tabs .msrm_add {
+    height: 30px;
+    width: 32px;
+    float: left;
+}
+.ui-dialog .new_msrm_tabs .msrm_add:hover {
+    background-position: 0px -31px;
+}
+.ui-dialog .new_msrm_tabs .msrm_del {
+    height: 28px;
+    width: 28px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+.ui-dialog .new_msrm_tabs .msrm_del:hover {
+    background-position: 0px -28px;
+}
+.ui-dialog .new_msrm_tabs .measurements_pool p span {
+    text-align: right;
+}
+.ui-dialog .new_msrm_tabs .table_layout {
+    width: auto;
+}
+.ui-dialog .new_msrm_tabs .table_layout td {
+    padding: 3px;
+}
+.ui-dialog .bl_inn_wdj_big .bl_inn_wdj {
+    width: auto !important;
+}

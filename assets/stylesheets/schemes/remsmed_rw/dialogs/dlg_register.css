@@ -1,0 +1,48 @@
+.policy_text_container, .terms_text {
+    padding: 10px;
+}
+
+.terms_text {
+	margin-bottom: 20px;
+}
+
+.policy_text {
+    margin-bottom: 20px;
+}
+
+.accept_terms {
+    margin: 10px 0 5px 7px;
+}
+
+.accept_terms > span {
+    margin-left: 5px;
+}
+
+.datepick-popup {
+	z-index: 1200;
+}
+
+/*registration form*/
+.reg_anket_content ul li {
+	float: left;
+	padding: 10px 0px;
+}
+
+.reg_anket_content ul li p {
+	float: left;
+	width: 190px;
+	padding-top: 0px;
+}
+
+.reg_anket_content input[type="text"], 
+.reg_anket_content input[type="password"] {
+	width: 200px;
+	padding: 5px 10px;
+	margin-top: -4px;
+	float: left;
+}
+
+div#sex_radio {
+	width: 350px;
+}
+

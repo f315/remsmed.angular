@@ -1,0 +1,57 @@
+.dialog_vconf_list .videoconf_name img {
+	float: left;
+}
+.dialog_vconf_list .videoconf_name ul {
+	float: left;
+	margin: 10px;
+}
+
+.dialog_vconf_list #videoconf { /* ??? */
+	padding:0px;
+	padding-bottom: 10px;
+}
+.dialog_vconf_list #calendar { /* ??? */
+	float:left; 
+	width:730px; 
+}
+.dialog_vconf_list .vconf_calendar {
+	width:730px; 
+}
+.dialog_vconf_list .vconf_calendar .fc-widget-content {
+	cursor: pointer;
+}
+.dialog_vconf_list .vconfCard .conf_length_radio, 
+.dialog_vconf_list .conf_length_span { /* ??? */
+	position:relative;
+	top:7px;
+}
+
+.dialog_vconf_list .calend_image { /* ??? */
+	height: 15px;
+	float: left;
+	margin: 0px 0px 0 3px;
+}
+
+.calend_span {
+	float: left;
+	margin: 0 4px;
+}
+
+.calend_event {
+	margin: 2px 5px;
+}
+
+.fc-event-icons {
+	float: left;
+	margin-bottom: -4px;
+}
+
+.fc-event-time, .fc-event-title {
+	padding: 0 1px;
+	float: left;
+	line-height: 10px;
+}
+
+.fc-event-time, .fc-event-title {
+	margin: 5px 2px 2px 2px;
+}

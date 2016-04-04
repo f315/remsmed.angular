@@ -4,157 +4,18 @@
 <head>
     <title></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <script data-require="angularjs@1.5.0" data-semver="1.5.0" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-messages.js"></script>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+    <link href="assets/stylesheets/plugins.css" rel="stylesheet" type="text/css">
+    <link href="assets/stylesheets/main.css" rel="stylesheet" type="text/css">
+    <link href="assets/stylesheets/schemes/remsmed_rw/main.css" rel="stylesheet" type="text/css">
+    <script src="app/angular_1.5.3.min.js"></script>
+    <script src="app/angular-ui-router_0.2.18.min.js"></script>
+    <script src="app/main.js"></script>
 </head>
 
 
-<body ng-app='mailBox'>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <newmail></newmail>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="panel panel-info panel-mailBox">
-          <div class="panel-heading">
-            <h3 class="panel-title">mailBox</h3>
-          </div>
-          <div class="list-group">
-            <mailitem></mailitem>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<body ng-app='app'>
+ <ui-view></ui-view>
 
-  <script>
-    var newmail = `<div class="panel panel-info panel-newmail">
-          <div class="panel-heading">
-            <h3 class="panel-title">newMail</h3>
-          </div>
-          <div class="content">
-            <form name="newmail">
-              <div class="form-group">
-                <input type="email" class="form-control" id="emailTo" name="emailTo" placeholder="Кому" ng-model="$ctrl.emailTo" required>
-                <div ng-messages="userCardForm['email'].$error" ng-if="userCardForm['email'].$dirty" role="alert">
-                    <div ng-message="email">Введите корректный email.</div>
-                  </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" id="subject" name="subject" placeholder="Тема" ng-model="$ctrl.subject" ng-minlength="1">
-                <div ng-messages="userCardForm['birthdate'].$error" ng-if="userCardForm['birthdate'].$dirty" role="alert">
-                    <div ng-message="minlength">Минимальное количество символов 1.</div>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <textarea class="form-control" type="textarea" id="content" name="content" ng-model="$ctrl.content" rows="7"></textarea>
-              </div>
-
-              <button type="button" id="submit" name="submit" class="btn btn-primary pull-right" ng-click="$ctrl.addEmail()">Отправить</button>
-            </form>
-          </div>
-        </div>`
-    var app = angular.module('mailBox', ['ngMessages']);
-
-    app.component('mailitem', {
-      templateUrl: 'mailitem.html',
-      controller: function(DataMails) {
-        DataMails.getMails().then(mails => {
-          this.mails = mails;
-        });
-
-        this.removeMail = (mail) => {
-          DataMails.remove(mail).then(() => {
-            this.mails.splice(this.mails.indexOf(mail), 1);
-          });
-        };
-        this.showMail = function(index) {
-          this.mails[index].show = true;
-        };
-        this.hideMail = function(index) {
-          //debugger
-          this.mails[index].show = false;
-        };
-      }
-    });
-
-    app.component('mailfull', {
-      bindings: {
-        mail: '<',
-        hidemail: '&',
-        index: '<'
-      },
-      templateUrl: 'mailFull.html',
-      controller: function() {}
-    });
-
-    app.component('newmail', {
-      template: newmail,
-      controller: function(DataMails) {
-        this.emailTo = '';
-        this.subject = '';
-        this.content = '';
-
-        //как передать переменную mails из компонента mailitem в этот компонент?
-        DataMails.getMails().then(mails => {
-          this.mails = mails;
-
-        });
-
-        this.addEmail = () => {
-          var newMail = {
-            autor: 'fromme@test.com',
-            subject: this.subject.trim(),
-            content: this.content.trim()
-          };
-
-          if (newMail) {
-            DataMails.addMails(newMail).then((newMail) => {
-              //debugger
-              this.mails.push(newMail);
-              this.emailTo = '';
-              this.subject = '';
-              this.content = '';
-            });
-          }
-        };
-
-      }
-
-    });
-
-    app.service('DataMails', function($http) {
-      this.getMails = function() {
-        return $http.get('https://shining-heat-2805.firebaseio.com/mailsdata.json')
-          .then(response => normalizeToArray(response.data));
-      };
-      this.addMails = function(newItem) {
-        return $http.post('https://shining-heat-2805.firebaseio.com/mailsdata.json', newItem)
-          .then(response => {
-            return newItem;
-          });
-      };
-      this.remove = function(item) {
-        return $http.delete('https://shining-heat-2805.firebaseio.com/mailsdata/' + item.id + '.json', item)
-          .then(response => response.data);
-      }
-
-      function normalizeToArray(object) {
-        if (!object) return [];
-        return Object.keys(object).map(key => {
-          let normalizedObject = object[key];
-          normalizedObject.id = key;
-          return normalizedObject;
-        });
-      }
-    });
-  </script>
 </body>
 
 

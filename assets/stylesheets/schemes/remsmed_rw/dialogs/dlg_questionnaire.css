@@ -1,0 +1,125 @@
+/* ==========  popup Ankets  ========== */
+
+.dialog_questionnaire .questions_form .anketa {
+    height: 32px;
+}
+.index-container-anket {
+    float: left;
+}
+.inquirer_big_window .index-container-anket .index-wrapper {
+    width: 480px;
+    float: left;
+}
+.index-container-anket .index-header {
+    width: 455px;
+    margin: 5px 0 0 0;
+    padding: 1px 10px;
+    float: left;
+}
+.index-container-anket .index-wrapper .index-header .amount_slide {
+    margin-top: 0px;
+    margin-right: 10px;
+    float: right;
+    width: 45px;
+    text-align: center;
+    color: white;
+}
+.index-container-anket .index-wrapper .index-header .widget_mini_del + .amount_slide {
+    margin-right: 36px;
+}
+.index-container-anket .index-content {
+    float: left;
+    width: 459px;
+    padding: 8px;
+}
+.index-container-anket .index-content .anketa {
+    width: 426px;
+    float: left;
+    padding: 5px 5px 12px 8px;
+    margin-left: 3px;
+}
+.index-container-anket .index-content .anketa span {
+    width: 326px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.index-container-anket .index-content .account_number {
+    float: right;
+    margin-right: 20px;
+}
+.index-container-msrm-full {
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+    padding: 0 0 0 10px;
+}
+/* ==================anketa ???====================== */
+
+.questions_form {
+    width: 960px;
+}
+.questions_form .index-wrapper {
+    width: 100%;
+}
+.questions_form .index-wrapper .index-content {
+    width: 940px;
+    padding: 8px;
+}
+.all-ankets {
+    height: 166px;
+    overflow: hidden;
+    width: 490px;
+}
+.inquirer_big_window .all-ankets {
+    width: 945px;
+    padding: 5px;
+    margin-top: 15px;
+    height: auto;
+    margin-bottom: 50px;
+}
+.anketa {
+    float: right;
+    padding: 5px 5px 12px 8px;
+    width: 445px;
+    cursor: default;
+    left: 4px;
+    position: relative;
+}
+.inquirer_big_window .all-ankets .anketa {
+    height: 88px;
+}
+.anketa.past {
+    float: left;
+    padding: 5px 5px 12px 8px;
+    width: 445px;
+    cursor: default;
+    margin-left: 3px;
+}
+.anketa:not(.a-scale) {
+    margin: 5px;
+    float: left;
+}
+.anketa.a-scale {
+    width: 436px;
+}
+.anketa.a-scale .question_slider {
+    width: 440px;
+    cursor: pointer;
+}
+.anketa:not(.a-scale) .question_slider {
+    width: 430px;
+    cursor: pointer;
+}
+span.sp-right {
+    float: right;
+    white-space: nowrap;
+}
+.anketa.past {
+    padding-bottom: 5px;
+}
+.anketa span:not(.a-scale) {
+    float: left;
+    margin-left: 5px;
+    width: 370px;
+}

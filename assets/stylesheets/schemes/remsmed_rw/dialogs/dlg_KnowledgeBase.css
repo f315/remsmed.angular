@@ -1,0 +1,10 @@
+/* ====popUp Knowledge Base===== */
+.ui-dialog.dialog_KnowledgeBase .pres_ul li>p:first-child{
+	width:125px;
+}
+.ui-dialog.dialog_KnowledgeBase .pres_ul .mce-tinymce{
+	width:716px !important;
+}
+.ui-dialog.dialog_KnowledgeBase .pres_ul textarea{
+	width:718px;
+}

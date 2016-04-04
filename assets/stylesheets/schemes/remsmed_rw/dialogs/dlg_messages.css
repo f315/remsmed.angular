@@ -1,0 +1,11 @@
+/* ============popup New Messages from menu ============*/
+.dialog_messages .index-content.scroll_content{
+	height:160px;
+}
+
+.dialog_messages .index-content.scroll_content .all_alerts{/* because maybe used class.all_alerts else, but i dont fint them */
+	height:auto;
+}
+.dialog_messages .new_mes_text textarea{
+	float:none;
+}

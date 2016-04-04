@@ -1,0 +1,5 @@
+/*==============popup Alerts List FROM MENU===========*/
+.dialog_alerts_list table.tbl_list_alerts td:nth-child(3),
+.dialog_alerts_list table.tbl_list_alerts td:nth-child(4) {
+	text-align:center;
+}

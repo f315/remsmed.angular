@@ -1,0 +1,37 @@
+/*commons styles for the different schemas*/
+@import "style.css";
+
+/* font, color, background, border, shadow for the current scheme */
+@import "scheme.css";
+
+/* import styles for widgets*/
+@import "widgets/wgt_Measurements_Endocrinolog.css";
+@import "widgets/wgt_PatientDayComments.css";
+@import "widgets/wgt_PatientInfo.css";
+@import "widgets/wgt_PatientLastMeasurements.css";
+@import "widgets/wgt_PatientPrscrExec.css";
+@import "widgets/wgt_UserMessages.css";
+@import "widgets/wgt_Box_Patientlist.css";
+
+/* import styles for dialog windows*/
+@import "dialogs/dlg_register.css";
+@import "dialogs/dlg_dynamics_values.css";
+@import "dialogs/dlg_InfoDoctor.css";
+@import "dialogs/dlg_KnowledgeBase.css";
+@import "dialogs/dlg_messages.css";
+@import "dialogs/dlg_my_comments.css";
+@import "dialogs/dlg_msrm.css";
+@import "dialogs/dlg_prescriptions_all.css";
+@import "dialogs/dlg_profile.css";
+@import "dialogs/dlg_questionnaire.css";
+@import "dialogs/dlg_user_messages.css";
+@import "dialogs/dlg_UserMessages_answer.css";
+@import "dialogs/dlg_access_log.css";
+@import "dialogs/dlg_alerts_all.css";
+@import "dialogs/dlg_vconf_list.css";
+@import "dialogs/dlg_vc_measurements.css";
+
+
+
+
+

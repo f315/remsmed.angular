@@ -1,0 +1,1546 @@
+﻿@import "common/reset.css";
+@import "common/tables.css";
+@import "common/forms.css";
+@import "common/buttons.css";
+@import "common/widgets.css";
+/* common styles for widgets*/
+
+@import "common/dialogs.css";
+/* common styles for popup windows*/
+
+@import "common/controls.css";
+/*custom scroll, arrow, balloons, slider*/
+
+html {
+    height: 100%;
+}
+* html body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    position: relative;
+    height: 100%;
+}
+/* ==========  General styles ========== */
+
+a,
+p {
+    word-wrap: break-word;
+    -ms-word-wrap: break-word;
+}
+.who_app {
+    word-wrap: break-word;
+    -ms-word-wrap: break-word;
+}
+.curr_pat {
+    margin-bottom: 20px;
+}
+/*========================================
+-----------footer-------------------------
+=========================================*/
+
+div.copyright {
+    float: right;
+    padding-right: 6px;
+    text-align: right;
+    width: 400px;
+}
+div.app-version {
+    text-align: left;
+    padding-left: 6px;
+    text-align: left;
+    width: 400px;
+}
+/* ==========  Typo  ========== */
+
+blockquote {
+    width: 702px;
+    margin-top: 40px;
+    padding: 15px 10px;
+    quotes: "\201C" "\201D";
+    text-align: center;
+}
+blockquote:before {
+    content: open-quote;
+}
+blockquote:after {
+    content: close-quote;
+}
+.p12 {
+    padding: 12px;
+}
+.pt12 {
+    padding-top: 12px;
+}
+.w1000 {
+    width: 992px!important
+}
+.w100 {
+    width: 100px!important
+}
+.w50 {
+    width: 50px!important;
+}
+.legendLabel span {
+    display: block;
+    margin: 0 5px;
+}
+.legendColorBox {
+    padding-left: 10px;
+}
+/* ========== file uploader ========== */
+
+.pres_ul + .pres_ul div.files_list {
+    width: 250px;
+}
+.pres_ul + .pres_ul div.files_list span {
+    max-width: 195px;
+}
+div.files_list>p {
+    margin: 0 0 6px 0 !important;
+    /* text-align:left !important;  LC-69 */
+}
+div.files_list span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+/* ========== ========== */
+
+.index-header .widget_mini_del,
+.index-header .download_mini {
+    float: right;
+}
+#auto_focus_off {
+    width: 1px;
+    height: 1px;
+    border: none;
+}
+/* ==========  Additional reset classes  ========== */
+
+.mt40 {
+    margin-top: 40px;
+}
+.nomargin {
+    margin: 0!important;
+}
+.nopadding {
+    padding: 0!important;
+}
+.noborder {
+    border: none!important;
+}
+.nobg {
+    background: none!important;
+}
+.floatleft {
+    display: block;
+    float: left!important;
+}
+.floatright {
+    display: block;
+    float: right;
+}
+.aligncenter {
+    text-align: center;
+}
+.fix {
+    clear: both;
+}
+.inactive {
+    margin-top: 0px;
+    color: #2B6893;
+}
+/* ===== Header ===== */
+
+#header {
+    height: 55px;
+    clear: both;
+    padding: 20px 10px 0px 20px;
+}
+.logo {
+    float: left;
+}
+.logo img {
+    height: 51px;
+    margin-top: -13px;
+}
+.welcome {
+    float: right;
+    width: 655px;
+}
+.wrap_welcome_exit {
+    float: right;
+    width: 147px;
+    margin-left: 10px;
+}
+.welcome img {
+    float: right;
+    padding: 3px;
+    width: 36px;
+    height: 36px;
+}
+.welcome span {
+    float: right;
+    margin: 0px 1px;
+}
+.date {
+    float: left!important;
+}
+.user {
+    float: right;
+    width: 385px;
+    margin: 0px 10px;
+    max-height: 55px;
+    text-align: right;
+}
+.user span {
+    text-align: right;
+    float: right;
+}
+/*---------no data in the widjets/popups----------*/
+
+.blank {
+    display: block;
+    text-align: center;
+}
+.blank_user_list {
+    width: 458px;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* ===== Top navigation ===== */
+
+#topnav {
+    margin: 0px -7px 10px -10px;
+    margin-bottom: 10px;
+}
+#topnav ul {
+    text-align: center
+}
+#topnav ul li {
+    display: inline-block;
+    line-height: 40px;
+    /*LC-57*/
+    
+    margin: 5px;
+}
+#topnav .numberMiddle.numberadd_top {
+    position: relative;
+    float: right;
+    margin-top: 2px;
+    margin-left: 4px;
+    padding: 0px 5px;
+    cursor: default;
+}
+#topnav ul li a {
+    float: left
+}
+.lefttopnav {
+    float: left;
+    margin-left: -21px;
+    margin-top: -4px;
+}
+.righttopnav {
+    float: right;
+    margin-top: -4px;
+    margin-right: -16px;
+}
+/*--------layout----------*/
+
+.layout {
+    overflow: hidden;
+    width: 1025px;
+    margin: auto;
+}
+.leftmargin {
+    width: 40px;
+    float: left;
+}
+.rightmargin {
+    width: 40px;
+    float: right;
+}
+.outwrapper {
+    float: left;
+    min-height: 100%;
+}
+html .outwrapper {
+    height: 100%;
+}
+.wrapper {
+    margin: 0px 2px 0px 0px;
+    float: left;
+    min-height: 100%;
+    padding: 0px 10px;
+}
+html .wrapper {
+    height: 100%;
+}
+footer {
+    clear: both;
+    margin-top: 20px;
+}
+.graphs_ul_content {
+    float: left;
+    width: 13em!important;
+    height: 100%;
+    margin-right: 0;
+    margin-top: -2px;
+    padding: 2px 2px 4px 0;
+    overflow: hidden;
+}
+#blockUI-send_custom_form {
+    display: none;
+}
+.sliderSpecs input + span {
+    float: left;
+    margin: 10px 0px 0 5px;
+}
+.export_xls.ui-dialog .ui-dialog-titlebar {
+    padding: 10px 10px;
+    margin-left: -6px;
+    margin-right: -2px;
+    margin-top: -3px;
+    position: relative;
+}
+.alerts_list {
+    padding: 0px!important;
+    border: none;
+}
+.inquirer_full {
+    padding: 0px!important;
+    border: none;
+}
+.inquirer_full {
+    padding: 0px!important;
+    border: none;
+}
+.anket_edit_full .verttab {
+    height: 100%;
+}
+.anket_edit_full .ui-tabs {
+    height: 570px;
+    width: 980px;
+}
+.anket_edit_full .ui-tabs-panel {
+    height: 100%!important;
+    width: 780px;
+    padding: 2px!important;
+}
+.anket-edit-full {
+    height: 550px !important;
+}
+#graph-tabs3 {
+    height: 100%;
+    width: 100%;
+}
+#graph-tabs3 .verttab {
+    height: 508px;
+}
+/*
+ * Processing indicator
+ */
+
+.dataTables_processing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 30px;
+    margin-left: -125px;
+    margin-top: -15px;
+    padding: 14px 0 2px 0;
+    text-align: center;
+}
+.ajax_loader_ {
+    padding: 5px 5px 0px 3px;
+    width: 220px;
+    z-index: 2000;
+    left: 50%;
+    top: 50%;
+    margin-top: -17px;
+    margin-left: -110px;
+    position: fixed;
+}
+/*
+ * Sorting
+ */
+
+table.dataTable thead th:active,
+table.dataTable thead td:active {
+    outline: none;
+}
+/*
+ * Scrolling
+ */
+
+.dataTables_scroll {
+    clear: both;
+}
+.profile_ul .pres_ul.w700 {
+    width: 700px;
+}
+.profile_ul .pres_ul > li.w700 {
+    width: 700px;
+}
+.pres_ul li p+span {
+    margin-left: 0 !important;
+}
+/* -----------preference time---------*/
+
+.preferred_time li {
+    float: left;
+    clear: both;
+}
+.prscr_month_day > div {
+    float: none;
+    overflow: hidden;
+    display: block;
+    width: 255px;
+}
+#tab_documents {
+    padding: 0px;
+    margin: 0px;
+}
+.pagination {
+    padding: 3px;
+}
+.pagination_last {
+    padding: 2px;
+}
+.input_poisk {
+    padding: 2px;
+}
+.new_mes_search {
+    width: 562px;
+    float: left;
+}
+.new_mes_lists {
+    width: 562px;
+    float: left;
+}
+.new_mes_list {
+    width: 271px;
+    float: left;
+    margin: 0 5px;
+}
+.new_mes_list .index-header {
+    width: 248px;
+}
+.new_mes_list .index-content {
+    width: 252px;
+}
+.new_mes_list .index-content ul {
+    width: 255px;
+    margin-left: 0px;
+}
+.new_mes_list .index-content ul li {
+    width: 230px;
+    margin: 3px 0px;
+    padding: 2px 0 4px 0;
+}
+.new_admin_lists {
+    width: 562px;
+    float: left;
+}
+.new_admin_list {
+    width: 271px;
+    float: left;
+    margin: 0 5px;
+}
+.new_admin_list .index-header {
+    width: 248px;
+}
+.new_admin_list .index-content {
+    width: 252px;
+}
+.new_admin_list .index-content ul {
+    width: 255px;
+    margin-left: 0px;
+}
+.new_admin_list .index-content ul li {
+    width: 250px;
+    margin: 3px 0px;
+    padding: 2px 0 4px 0;
+}
+.new_mes_people {
+    width: 556px;
+    float: left;
+    padding: 10px 10px 0 10px;
+}
+.new_mes_people label {
+    float: left;
+    margin-right: 10px;
+}
+.new_mes_people .checked_people {
+    float: left;
+    padding: 1px 10px;
+    margin: 0 2px 4px 2px;
+}
+.new_mes_people .checked_people a {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+}
+.new_mes_people .checked_people a img {
+    float: left;
+    margin-left: 4px;
+    margin-top: 3px;
+}
+.old_mes_people {
+    float: left;
+    width: 556px;
+    padding: 10px 10px 0 10px;
+}
+.old_mes_people label {
+    float: left;
+    margin-right: 10px;
+}
+.old_mes_people span {
+    padding: 1px 10px;
+    float: left;
+    margin: 0 2px 4px 2px;
+}
+.old_mes_people span a {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+}
+.old_mes_people span a img {
+    margin-left: 4px;
+    margin-top: 3px;
+    float: left;
+}
+.old_mes_text {
+    width: 556px;
+    float: left;
+    padding: 10px 10px 0 10px;
+}
+.old_mes_text textarea {
+    float: left;
+    width: 306px;
+    height: 32px;
+    margin: 5px 0px;
+    padding: 5px 10px;
+    resize: none;
+}
+.old_mes_text div.setup_buttons {
+    margin-right: 10px;
+}
+.new_mes_text {
+    float: left;
+    width: 556px;
+    padding: 10px 10px 0 10px;
+}
+.new_mes_text textarea {
+    float: left;
+    width: 306px;
+    height: 32px;
+    margin: 5px 0px;
+    padding: 5px 10px;
+    resize: none;
+}
+.new_mes_text div.setup_buttons {
+    margin-right: 10px;
+}
+.recip_list_item span.people_check {
+    height: 22px;
+    width: 30px;
+    cursor: default;
+    text-align: left;
+    float: right;
+    margin-right: -5px;
+}
+.org_list1 span.people_check,
+.org_list2 span.people_check {
+    height: 22px;
+    width: 30px;
+    cursor: default;
+    text-align: left;
+    float: right;
+    margin-right: -5px;
+}
+.pat_list1 span.people_check,
+.pat_list2 span.people_check {
+    height: 22px;
+    width: 30px;
+    cursor: default;
+    text-align: left;
+    float: right;
+    margin-right: -5px;
+}
+.doc_list1 span.people_check,
+.doc_list2 span.people_check {
+    height: 22px;
+    width: 30px;
+    cursor: default;
+    text-align: left;
+    float: right;
+    margin-right: -5px;
+}
+.asist_list1 span.people_check,
+.asist_list2 span.people_check {
+    height: 22px;
+    width: 30px;
+    cursor: default;
+    text-align: left;
+    float: right;
+    margin-right: -5px;
+}
+.all_alerts {
+    margin-left: 10px;
+    float: left;
+    height: 160px;
+    overflow: hidden;
+    width: 225px;
+}
+.all_alerts li {
+    width: 194px;
+    float: left;
+    margin: 3px 0px
+}
+.all_alerts li a img {
+    height: 24px;
+    float: left;
+    margin-right: 5px;
+}
+.all_alerts li a span {
+    width: 130px;
+    float: left
+}
+/* documents */
+
+.new_window_arrow {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    vertical-align: middle;
+}
+.new_window_arrow:hover {
+    background-position: 0px -31px;
+}
+.new_window_arrow + span {
+    vertical-align: middle;
+}
+.comment_big .wr_new_comm_block {
+    overflow: hidden;
+    margin: 5px 0 15px;
+}
+.alert {
+    position: fixed;
+    right: 0;
+    width: 230px;
+    height: auto;
+    top: 0;
+    z-index: 100;
+    margin-right: 20px;
+    margin-top: 40px;
+    padding: 5px;
+}
+.alert img {
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.alert h1 {
+    float: left;
+    font-size: 18px;
+    color: #3bb0dc;
+}
+.alert p {
+    float: left;
+    clear: both;
+    padding-top: 0px;
+}
+.alert .time {
+    clear: left;
+    float: left;
+    margin-left: 10px;
+}
+.alert .alert_content {
+    float: left;
+    width: 160px;
+    margin-left: 10px;
+}
+.row_left input[type=radio]+label {
+    float: left;
+}
+/* validity */
+/* 
+ * Style used by the label output mode.
+ * Applied to the error labels that get positioned after an input.
+ */
+
+label.error {
+    margin-left: 2px;
+    padding: 2px;
+    padding-left: 18px;
+}
+/*
+ * Styles used by the modal output mode.
+ * '.validity-modal-msg' is applied to the modal boxes 
+ * and '.validity-modal-msg:hover' is applied to suggest 
+ * to the user that the boxes are clickable.
+ */
+
+.validity-modal-msg {
+    position: absolute;
+    padding: 4px;
+    cursor: pointer;
+    z-index: 2;
+}
+/*
+ * Styles used by the summary output mode.
+ * '.validity-summary-container' is a container on the page that should contain a UL 
+ * which is the actual summary. The container can hold 
+ * an extra bit of text (or anything really) that explains what the summary is.
+ * '.validity-erroneous' is applied to every input that fails.
+ */
+
+.validity-summary-container {
+    display: none;
+}
+.validity-tooltip {
+    position: absolute;
+    width: 16em;
+    padding: 3px;
+    cursor: pointer;
+    z-index: 1003;
+}
+.validity-tooltip:hover {
+    border-color: #333;
+}
+.validity-tooltip .validity-tooltip-outer,
+.validity-tooltip .validity-tooltip-inner {
+    background: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-right-width: 0;
+    bottom: auto;
+}
+.validity-tooltip .validity-tooltip-outer {
+    top: -1px;
+    left: -21px;
+}
+.validity-tooltip .validity-tooltip-inner {
+    top: 1px;
+    left: 3px;
+}
+#shadow-fix {
+    height: 18px;
+}
+.box_btn.add a:hover,
+.box_btn.save a:hover {
+    background-position: 0px -15px;
+}
+#msrms_main {
+    box-shadow: none;
+}
+#msrms_main .new_msrm_tabs {
+    padding: 20px;
+    margin: 1px auto 20px 20px;
+    padding-left: 30px;
+}
+.msrms_big_window {
+    height: 550px;
+}
+.option-menu {
+    display: none;
+    position: absolute;
+    width: 110px;
+    z-index: 100;
+    top: 44px;
+    right: 3px;
+}
+.option-block {
+    margin: 4px 7px 4px 7px;
+    padding-bottom: 2px;
+}
+.option-block a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+ul.soc_login {
+    margin-left: 10px;
+    width: 75px;
+    height: 25px;
+    position: relative;
+    float: left;
+}
+ul.soc_login a {
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    float: left;
+}
+ul.soc_login a:hover {
+    background-position: 0 -22px;
+}
+a#accept_required.clickBlocked2:hover {
+    cursor: default;
+}
+/*registration*/
+
+.no-close-cross .ui-dialog-titlebar-close {
+    display: none;
+}
+/* =============== inner block with round border =================*/
+
+.bl_inn_wdj {
+    margin: 0px 10px 3px 5px;
+    padding: 4px;
+    overflow: hidden;
+}
+.bl_inn_wdj_time {
+    float: left;
+    width: 40px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+.bl_inn_wdj_meal {
+    float: left;
+    width: 83px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+.bl_inn_wdj img {
+    border-radius: 5px;
+}
+.bl_inn_wdj_cnts {
+    float: left;
+    width: 340px;
+    padding-top: 3px;
+}
+.bl_inn_wdj_cnts h3 {
+    padding-top: -3px;
+    margin-top: -4px;
+}
+.bl_inn_wdj_cnts p {
+    padding-top: 0px;
+}
+/*========= comments widget+dialog =========*/
+
+.index-comments {
+    margin-top: 5px;
+    padding-bottom: 9px;
+    overflow: hidden;
+}
+.comm_block {
+    float: left;
+    width: 440px;
+    margin: 0px 10px;
+    padding: 4px;
+    clear: both;
+}
+.otvet_block {
+    float: left;
+    width: 386px;
+    margin: 0px 10px 3px 55px;
+    padding: 4px;
+    clear: both;
+    overflow: hidden;
+}
+.comm_time {
+    float: left;
+    width: 40px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+.otvet_time {
+    float: left;
+    width: 40px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+.comm_patient {
+    float: left;
+    width: 390px;
+    padding-top: 3px;
+}
+.comm_patient h3 {
+    padding-top: -3px;
+    margin-top: -4px;
+}
+.comm_patient p {
+    padding-top: 0px;
+}
+.otvet_comm {
+    float: left;
+    width: 340px;
+    padding-top: 3px;
+}
+.otvet_comm h3 {
+    padding-top: -3px;
+    margin-top: -4px;
+    padding-left: 30px;
+    font-size: 14px;
+    font-style: italic;
+}
+.otvet_comm p {
+    padding-top: 0px;
+}
+.index_comment {
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    clear: both;
+}
+.otvet_comm img {
+    float: left;
+    height: 26px;
+    margin-right: 5px;
+}
+/* ===========knowledge base============ */
+
+.kb_Box {
+    overflow: hidden;
+    padding: 4px 4px 4px 10px;
+    width: 440px;
+}
+.kb_Box_date {
+    float: left;
+    width: 84px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+.kb_Box_title {
+    float: left;
+    margin-top: 1px;
+    width: 350px;
+}
+.fw-graph-table {
+    position: relative;
+    left: 100px;
+    width: 150px;
+    margin: 0 auto;
+}
+.fw-graph-table div {
+    display: inline;
+}
+.graph-table.active {
+    padding: 0px 4px 0px 4px;
+}
+.graph-table-container {
+    display: inline-block;
+    padding: 10px;
+    margin: 15px 0px 0px 15px;
+}
+#graph-table {
+    width: 300px;
+    margin: 0 auto;
+    float: none !important;
+}
+.graph-table {
+    cursor: pointer;
+}
+.dataTable-custom-filtering {
+    margin: 10px 15px 10px 15px;
+}
+.mapPatients_map {
+    float: left;
+    padding-right: 2px;
+    width: 730px;
+    height: 600px;
+    margin-bottom: 10px;
+}
+.mapPatients_list {
+    font-family: century gothic;
+    position: relative;
+    width: 262px;
+    float: left;
+}
+.mapPatients_list .scroll_content {
+    float: left;
+    height: 580px;
+    overflow: hidden;
+    width: 262px;
+}
+.mapPatients_list div.leftcol {
+    float: left;
+    margin-left: 10px;
+    padding: 5px;
+    width: 170px;
+}
+.mapPatients_list div.leftcol img {
+    float: left;
+    height: 30px;
+}
+.mapPatients_list div.leftcol span {
+    float: left;
+    margin-left: 5px;
+    width: 125px;
+}
+.mapPatients_list div.rightcol {
+    float: left;
+    margin: 14px;
+}
+.ui-dialog:after {
+    content: "";
+}
+.ui-dialog-title span {
+    margin-left: 8px;
+}
+.dataTables_wrapper .search_init.select_filter {
+    width: 90%;
+}
+.clear {
+    clear: both;
+}
+.graphs_full .ui-buttonset {
+    float: right;
+}
+.prscr_exec_comments > div {
+    margin-left: 20px;
+}
+.autoheight {
+    height: auto !important
+}
+.notification_wrapper {
+    position: fixed;
+    right: 0;
+    width: 240px;
+    height: auto;
+    top: 0;
+    margin-right: 20px;
+    margin-top: 40px;
+    z-index: 10000;
+}
+.notification_wrapper .notif {
+    float: left;
+    margin-top: 10px;
+    width: 230px;
+    padding: 5px;
+    z-index: 10000;
+}
+.notification_wrapper .notif img {
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.notification_wrapper .notif h1 {
+    float: left;
+}
+.notification_wrapper .notif p {
+    float: left;
+    clear: both;
+    padding-top: 0px;
+}
+.notification_wrapper .notif .time {
+    float: left;
+    margin-left: 10px;
+}
+.notification_wrapper .notif .content {
+    float: left;
+    width: 160px;
+    margin-left: 10px;
+}
+.overflowHidden {
+    overflow: hidden;
+}
+.accessStatusColumn {
+    width: 200px;
+}
+.accessStatusColumn select {
+    max-width: 180px;
+}
+.classifier_fullw .DTTT_container {
+    display: none;
+}
+.classifier_fullw .DTTT_container {
+    display: none;
+}
+.user_med_data_comments .comments {
+    float: none;
+    width: 825px;
+    height: auto;
+    min-height: 120px;
+}
+.user_med_data_comments div {
+    margin-bottom: 5px;
+}
+div.cls_container .prescription .pres_ul li {
+    float: left;
+    border: none;
+}
+div.cls_container .prescription .list-search {
+    border: none;
+    padding: 0px;
+    position: relative;
+    float: none;
+    margin-left: 0px;
+    margin-top: 5px;
+    display: inline-block;
+    clear: both;
+}
+div.cls_container .prescription .list-search .search-btn {
+    float: right;
+    margin-right: 0px;
+    right: 0px;
+    margin-left: -20px;
+    margin-top: 6px;
+}
+/*------------------------------------*/
+
+.useful_information_week {
+    margin: 10px 0 0 0;
+    padding: 3px 0 10px 0;
+}
+.useful_information_week .ui_weeks {
+    float: left;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+.useful_information_week .ui_topic {
+    vertical-align: baseline;
+}
+.useful_information_week .ui_text {
+    margin: 10px;
+}
+.useful_information_week_calendar {
+    margin: 10px;
+    width: 300px;
+}
+.useful_information_week_calendar .uiw_title {
+    text-align: center;
+    padding: 3px;
+    cursor: pointer;
+}
+.useful_information_week_calendar .uiw_calendar {
+    width: 100%;
+}
+.useful_information_week_calendar .uiw_calendar .trim {
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 10px;
+}
+.useful_information_week_calendar .uiw_calendar .week {
+    height: 30px;
+    width: 26px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.dlg_storagedocs .dataTables_wrapper .search_init.select_filter {
+    width: 100%;
+}
+.dlg_storagedocs .dataTables_wrapper .search_init.select_filter > option {
+    height: 16px;
+}
+.dlg_storagedocs #patient_docs_table_length,
+.dlg_storagedocs #patient_docs_table_filter {
+    margin-bottom: 10px;
+}
+.dlg_storagedocs .date_range_filter_label_from,
+.dlg_storagedocs .date_range_filter_label_to {
+    display: block;
+    float: left;
+    height: 25px;
+    margin: 0;
+    width: 25px;
+}
+.graphs_full #table_msrm_2_wrapper .table_msrm_2_length,
+.graphs_full #table_msrm_2_wrapper .table_msrm_2_filter {
+    margin-bottom: 10px;
+}
+.dlg_storagedocs .dataTables_wrapper .search_init.select_filter {
+    width: 100%;
+}
+.dlg_storagedocs .dataTables_wrapper .search_init.select_filter > option {
+    height: 16px;
+}
+.dlg_storagedocs #patient_docs_table_length,
+.dlg_storagedocs #patient_docs_table_filter {
+    margin-bottom: 10px;
+}
+/* ---------------- */
+
+.row_left .ui-buttonset {
+    float: left;
+}
+.refresh_time {
+    cursor: pointer;
+}
+.specify_the_time {
+    cursor: pointer;
+}
+.at_the_current_time {
+    cursor: pointer;
+}
+.scroll_content {
+    height: 100%
+}
+/* -------------------- */
+
+.w175 {
+    width: 175px;
+}
+/* =========================MAIN LOGIN================================= */
+
+.index-body {
+    color: #5c5c5c;
+}
+.login_wrapper {
+    width: 980px;
+    margin: auto;
+}
+.index_intro {
+    position: relative;
+    width: 663px;
+    height: 424px;
+    margin: 0 auto;
+}
+.index_intro .self_registration {
+    float: left;
+}
+.main_index_content_all {
+    overflow: hidden;
+    padding: 160px 27px 0;
+    font-size: 13px;
+}
+.main_index_content_all img {
+    float: left
+}
+.main_index_content_all .main_index_left {
+    float: left;
+    width: 320px;
+    height: auto;
+    margin-left: 28px;
+}
+.main_index_content_all span {
+    float: left;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.main_index_content_all a {
+    float: right;
+}
+.main_index_content_all .sighnbut {
+    background-size: cover !important;
+    float: left;
+    width: 100%;
+    height: 21px;
+    margin-top: 3px;
+    border: none;
+    padding: 18px 0px;
+    color: white;
+}
+#lanyard-wrap {
+    position: absolute;
+    width: 980px;
+    margin-top: 30px;
+    height: 10px;
+}
+.content_all {
+    float: left;
+    width: 980px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.index-footer {
+    position: absolute;
+    bottom: 0;
+    width: 980px;
+}
+.index-copyright {
+    float: left;
+    clear: both;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.index-socialfoot {
+    float: right;
+    width: 158px;
+    height: 44px;
+    margin-right: 50px;
+    margin-top: 15px
+}
+input.login_input,
+input.pass_input {
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+    height: 65px;
+    border: none;
+    box-shadow: none;
+    padding: 10px 11px 10px 66px;
+    margin-top: 5px;
+    background-size: cover !important;
+}
+.main_index_left>input:first-child {
+    margin-top: 0;
+}
+input.tm_user_glucometer_vccomment,
+input.tm_user_insulin_vccomment,
+input.tm_user_drag_vccomment {
+    width: 275px;
+}
+.index_intro .notification {
+    position: absolute;
+    top: 115px;
+    width: 100%;
+    text-align: center;
+}
+/* =================popup Restore password =============*/
+
+.dialogpass {
+    font-family: century gothic;
+    overflow: visible;
+    display: none;
+}
+.dialogpass li {
+    float: left;
+    padding: 10px 0px;
+    width: 420px;
+}
+.dialogpass ul li p {
+    float: left;
+    width: 160px;
+    padding-top: 0px;
+}
+.dialogpass ul li .checkbox2 {
+    float: right;
+    margin-top: 3px;
+}
+.dialogpass ul li input[type="text"] {
+    width: 240px;
+    padding: 5px 10px;
+    border: none;
+    margin-top: -4px;
+    float: left;
+}
+.dialogpass .dialog_span {
+    float: left;
+    margin: 5px 15px;
+}
+#captcha_img {
+    float: right;
+    width: 120px;
+    height: 72px;
+}
+.padTB0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.w250 {
+    width: 250px;
+}
+a.btn_vitadock_connecting {
+    margin-left: 8px;
+}
+/* ----------------------- jstree ------------------- */
+
+.jstree-default .jstree-wholerow-clicked {
+    background: none;
+}
+.jstree-default .jstree-wholerow {
+    height: auto;
+}
+.jstree-default .jstree-anchor {
+    width: 97%;
+    height: auto;
+    padding-right: 0;
+}
+.jstree-anchor {
+    white-space: normal;
+}
+.jstree-default .jstree-wholerow-hovered {
+    background-color: transparent;
+}
+.jstree-default>.jstree-container-ul>.jstree-node {
+    margin: 3px 0;
+}
+.jstree-default>.jstree-no-dots .jstree-leaf>.jstree-ocl:before {
+    content: "–";
+}
+/* ----------- layout fields in the dialog windows-------------- */
+
+.pres_ul > li {
+    overflow: visible;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.pres_ul > li.files_list,
+.pres_ul > li.flex_start {
+    -webkit-box-align: flex-start;
+    -moz-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+.pres_ul {
+    float: left;
+    overflow: visible;
+}
+.pres_ul>li,
+.pres_ul_short>li {
+    padding: 6px 0px;
+}
+.pres_ul+.pres_ul {
+    width: 425px;
+    margin-left: 20px;
+}
+.pres_ul_short {
+    width: 425px;
+    float: left;
+}
+.pres_ul_short > li {
+    width: 425px;
+}
+ul.pres_ul li div.row_left textarea.comments.long {
+    height: 64px;
+    width: 700px;
+}
+.flexbox .pres_ul__resize_content {
+    float: none;
+}
+.flexbox .pres_ul__resize_content textarea,
+.flexbox .pres_ul__resize_content input[type=text] {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.no-flexbox .pres_ul__resize_content>li {
+    overflow: hidden !important;
+}
+.no-flexbox.no-flexbox .pres_ul__resize_content > li > p,
+.no-flexbox.no-flexbox .pres_ul__resize_content > li > div,
+.no-flexbox.no-flexbox .pres_ul__resize_content > li > textarea {
+    float: left;
+}
+/* for Safary*/
+/* .no-flexbox.flexboxlegacy .pres_ul>li>p, 
+.no-flexbox.flexboxlegacy .pres_ul>li>div,
+.no-flexbox.flexboxlegacy  .pres_ul>li>textarea{
+	float:none; 
+} */
+/* ============================================================== 
+-----------------------------Base 1 ----------------------------- 
+===============================================================*/
+
+.no_flex {
+    -webkit-box-flex: none !important;
+    -moz-box-flex: none !important;
+    -ms-flex: none !important;
+    -webkit-flex: none !important;
+    flex: none !important;
+}
+/* ============================================================== 
+-----------------------------Base 2 ----------------------------- 
+===============================================================*/
+
+.wblock_index {
+    margin-top: 5px;
+    padding: 4px 4px 4px 10px;
+    overflow: hidden;
+}
+.wblock_index_a {
+    display: inline-block;
+    width: 100%;
+}
+/* block adding/deletting new items 
+	applay: admin - widjet Box_Questionnaire - dialog Dialog_questionnaire_item_new
+*/
+
+.module_add_i {
+    padding-top: 17px;
+}
+.module_add_i th {
+    text-align: left;
+    font-weight: normal;
+    line-height: 120%;
+}
+.module_add_i td {
+    padding: 3px;
+    padding-right: 0;
+}
+.module_add_i tr>td:first-child {
+    padding-left: 0;
+}
+.module_add_i_td_lt {
+    width: 80%;
+}
+.module_add_i_td_rt {
+    width: 10%;
+}
+.module_add_i_td_lt input[type=text] {
+    width: 100%;
+}
+/* ==============================================================
+-----------------------------IFORS--------------------------------
+===============================================================*/
+
+.edit-icon-pen {
+    display: inline-block;
+    vertical-align: bottom;
+    position: absolute;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    background: url(/images/icons/icon-edit-red.png) no-repeat;
+    background-position: 0 0px;
+}
+.edit-icon-pen:hover {
+    background-position: 0 -20px;
+}
+.li_preferred_time h3 {
+    z-index: 20;
+    width: 142px !important;
+}
+.li_preferred_time .preferred_time,
+.li_preferred_time .profile_time {
+    position: relative;
+    top: -55px;
+    margin: 15px 5px 5px 15px;
+}
+.windex img {
+    height: 32px !important;
+    width: 32px !important;
+    top: -65px;
+    position: relative !important;
+    float: none !important;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.prescriptions_list.dialog_prescriptions_list.ui-draggable {
+    min-height: 350px;
+}
+.ui-dialog .ui-dialog-content {
+    overflow: visible;
+}
+/*
+.Box_PatientInfo .block_left {
+    float: left;
+    height: 160px !important;
+    padding: 0px 0px 10px 0px !important;
+    text-align: center;
+}
+.Box_PatientInfo .wr_profile_avatar img {
+    margin-top: 25px;
+}
+*/
+/* ==============================================================
+-----------------------------END IFORS--------------------------
+===============================================================*/
+
+a.js-only {
+	-webkit-touch-callout: none;
+}
+.group-disability{
+	display:none !important;
+}

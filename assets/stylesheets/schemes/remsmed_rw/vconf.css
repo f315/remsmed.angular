@@ -1,0 +1,479 @@
+html {
+  height: 100%;
+  width:100%;
+
+
+}
+body.video-conf {
+  display: block;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  background: #322929;
+  box-shadow: inset 0px 0px 170px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0px 0px 170px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0px 0px 170px rgba(0, 0, 0, 0.2);
+  margin: 0;
+
+}
+@font-face {
+    font-family: "RobotoRegular";
+    src: url("fonts/RobotoRegular/RobotoRegular.eot");
+    src: url("fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"), url("fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RobotoLight"; */
+
+@font-face {
+    font-family: "RobotoLight";
+    src: url("fonts/RobotoLight/RobotoLight.eot");
+    src: url("fonts/RobotoLight/RobotoLight.eot?#iefix")format("embedded-opentype"), url("fonts/RobotoLight/RobotoLight.woff") format("woff"), url("fonts/RobotoLight/RobotoLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RobotoMedium"; */
+
+@font-face {
+    font-family: "RobotoMedium";
+    src: url("fonts/RobotoMedium/RobotoMedium.eot");
+    src: url("fonts/RobotoMedium/RobotoMedium.eot?#iefix")format("embedded-opentype"), url("fonts/RobotoMedium/RobotoMedium.woff") format("woff"), url("fonts/RobotoMedium/RobotoMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RobotoBold"; */
+
+@font-face {
+    font-family: "RobotoBold";
+    src: url("fonts/RobotoBold/RobotoBold.eot");
+    src: url("fonts/RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"), url("fonts/RobotoBold/RobotoBold.woff") format("woff"), url("fonts/RobotoBold/RobotoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.video-conf .video-wrapper {
+    margin: 0 auto;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    margin-top: -295px;
+    left: 50%;
+    margin-left: -400px;
+}
+.video-wrapper .top {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+	margin-bottom: 20px;
+}
+.video-wrapper .top .left-side{
+    display: inline-block;
+    width: 50%;
+}
+.video-wrapper .top .left-side .video-user {
+    float: left;
+    margin-left: 10px;
+    width: 320px;
+    height: 51px;
+    overflow: hidden;
+	line-height: 1.2;
+}
+.video-wrapper .top .left-side img{
+    float: left;
+	width:49px;
+	height:49px;
+	border-radius:4px;
+}
+.video-wrapper .top .left-side .name{
+    float: left;
+	font-family:RobotoRegular;
+	font-size:20px;
+	color:#fff;
+}
+.video-wrapper .top .left-side .prof{
+    clear: left;
+    float: left;
+	font-family:RobotoLight;
+	font-size:16px;
+	color:#dadada;
+	font-style: italic;
+}
+.video-wrapper .top .right-side{
+    display: inline-block;
+    width: 50%;
+	font-family:RobotoRegular;
+    float: right;
+	color:white;
+}
+.video-wrapper .top .right-side .start-time {
+
+}
+.video-wrapper .top .right-side .end-time {
+    float: right;
+}
+.video-wrapper #progressbar {
+	margin-top:5px;
+	height: 8px;
+	border: none;
+}
+.video-wrapper-all {}
+.video-wrapper-all .main-video{
+	height:auto;
+	width:800px;
+	border-radius:4px;
+}
+.video-wrapper-all .me-video {
+    position: absolute;
+    bottom: 90px;
+    right: 0;
+    margin-right: 20px;
+    width: 160px;
+    height: 120px;
+}
+.video-wrapper .video-icons{
+	display: block;
+    margin-top: 20px;
+}
+.video-wrapper .ui-progressbar .ui-progressbar-value {
+	background: #cccccc;
+	border-radius: 4px;
+}
+.video-wrapper .ui-progressbar.progressbar-end-value .ui-progressbar-value{
+	background: #FF0000;
+}
+.video-wrapper .video-icons ul.icons-wrapper{
+    width: 280px;
+    margin: 0 auto;
+    background: black;
+    border-radius: 45px;
+    height: 50px;
+    padding:0px 20px;
+}
+.video-wrapper .video-icons ul.icons-wrapper li{
+    display: inline-block;
+	width: 50px;
+    height: 50px;
+}
+.video-wrapper .video-icons ul.icons-wrapper li a{
+	width:50px;
+	height:50px;
+	display: block;
+
+}
+.video-wrapper .video-icons ul.icons-wrapper li a.icon-mic.on {
+	background:url(../../../images/schemes/remsmed_rw/icons-2.png) no-repeat;
+	background-size: cover;
+}
+.video-wrapper .video-icons ul.icons-wrapper li a.icon-mic.off {
+	background:url(../../../images/schemes/remsmed_rw/icons-2-off.png) no-repeat;
+	background-size: cover;
+}
+.video-wrapper .video-icons ul.icons-wrapper li a.icon-cam.on {	
+	background:url(../../../images/schemes/remsmed_rw/icons-1.png) no-repeat;
+	background-size: cover;
+}
+.video-wrapper .video-icons ul.icons-wrapper li a.icon-cam.off {	
+	background:url(../../../images/schemes/remsmed_rw/icons-1-off.png) no-repeat;
+	background-size: cover;
+}
+.video-wrapper .video-icons ul.icons-wrapper li:nth-child(3) {
+	margin-right: 10px;
+}
+.video-wrapper .video-icons ul.icons-wrapper li a.icon-hang {
+	background:url(../../../images/schemes/remsmed_rw/but-3.png) no-repeat;
+	background-size: cover;
+	width: 61px;
+    height: 60px;
+    margin-top: -4px;	
+/* 	background-color: #F00;
+	border-radius: 50%; */
+}
+.video-wrapper .video-icons ul.icons-wrapper li a.icon-hang:hover {
+	background:url(../../../images/schemes/remsmed_rw/but-3-hover.png) no-repeat;
+	background-size: cover;	
+}
+.video-wrapper .video-icons ul.icons-wrapper li a.icon-vol.on {
+	background:url(../../../images/schemes/remsmed_rw/icons-4.png) no-repeat;
+	background-size: cover;
+}
+.video-wrapper .video-icons ul.icons-wrapper li a.icon-vol.off {
+	background:url(../../../images/schemes/remsmed_rw/icons-4-off.png) no-repeat;
+	background-size: cover;
+}
+.video-wrapper .video-icons ul.icons-wrapper li a.icon-set {
+	background:url(../../../images/schemes/remsmed_rw/icons-5.png) no-repeat;
+	background-size: cover;
+}
+.video-wrapper .video-icons ul.icons-wrapper li a.icon-set.m {
+	background:url(../../../images/schemes/remsmed_rw/icons-5-m.png) no-repeat;
+	background-size: cover;
+}
+.video-wrapper .video-icons ul.icons-wrapper li a.icon-set.h {
+	background:url(../../../images/schemes/remsmed_rw/icons-5-h.png) no-repeat;
+	background-size: cover;
+}
+.video-wrapper .video-icons ul.icons-wrapper li a.icon-set.hd {
+	background:url(../../../images/schemes/remsmed_rw/icons-5-hd.png) no-repeat;
+	background-size: cover;
+}
+.video-wrapper .video-icons ul.icons-wrapper li a.icon-set.l {
+	background:url(../../../images/schemes/remsmed_rw/icons-5-l.png) no-repeat;
+	background-size: cover;
+}
+.ui-menu {
+    position: absolute;
+  }
+.settings-change {
+    background: rgba(0, 0, 0, 0.9);
+    border: none;
+    color: white;
+    border-radius: 4px; 
+	padding: 5px 10px;
+	font-weight:normal;
+}
+.video-wrapper .video-icons ul.icons-wrapper li .settings-change li{
+	display: block;
+    padding: 3px 15px 3px 10px;
+	font-size: 18px;
+	line-height: 1.3;
+	font-weight: normal;
+	border:none;
+	font-family: RobotoRegular;
+	margin:0px;
+	width: auto;
+    height: auto;
+
+}
+.video-wrapper .video-icons ul.icons-wrapper li .settings-change li:hover, .video-wrapper .video-icons ul.icons-wrapper li .settings-change li:focus {
+    color: #D00000;
+	display: block;
+    padding: 3px 15px 3px 10px;
+	font-size: 18px;
+	line-height: 1.3;
+	font-weight: normal;
+	border:none;
+	font-family: RobotoRegular;
+	margin:0px;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+	border: none;
+	font-weight: normal;
+}
+.ui-widget {
+	font-family: Verdana,Arial,sans-serif;
+	font-size: 1.1em;
+}
+.ui-widget .ui-widget {
+	font-size: 1em;
+}
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+	font-family: Verdana,Arial,sans-serif;
+	font-size: 1em;
+}
+.ui-widget-content {
+	border: 1px solid #aaaaaa;
+	background: #ffffff;
+	color: #222222;
+}
+.ui-widget-content a {
+	color: #222222;
+}
+.ui-widget-header {
+	border: 1px solid #aaaaaa;
+
+	color: #222222;
+	font-weight: bold;
+}
+.ui-widget-header a {
+	color: #222222;
+}
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	border: 1px solid #d3d3d3;
+
+	font-weight: normal;
+	color: #555555;
+}
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
+	color: #555555;
+	text-decoration: none;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+	border: 1px solid #999999;
+
+	font-weight: normal;
+	color: #212121;
+}
+.ui-state-hover a,
+.ui-state-hover a:hover,
+.ui-state-hover a:link,
+.ui-state-hover a:visited,
+.ui-state-focus a,
+.ui-state-focus a:hover,
+.ui-state-focus a:link,
+.ui-state-focus a:visited {
+	color: #212121;
+	text-decoration: none;
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+	border: 1px solid #aaaaaa;
+	background: #ffffff;
+	font-weight: normal;
+	color: #212121;
+}
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+	color: #212121;
+	text-decoration: none;
+}
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+	border: 1px solid #fcefa1;
+	background: #fbf9ee;
+	color: #363636;
+}
+.ui-state-highlight a,
+.ui-widget-content .ui-state-highlight a,
+.ui-widget-header .ui-state-highlight a {
+	color: #363636;
+}
+.ui-state-error,
+.ui-widget-content .ui-state-error,
+.ui-widget-header .ui-state-error {
+	border: 1px solid #cd0a0a;
+	background: #fef1ec;
+	color: #cd0a0a;
+}
+.ui-state-error a,
+.ui-widget-content .ui-state-error a,
+.ui-widget-header .ui-state-error a {
+	color: #cd0a0a;
+}
+.ui-state-error-text,
+.ui-widget-content .ui-state-error-text,
+.ui-widget-header .ui-state-error-text {
+	color: #cd0a0a;
+}
+.ui-priority-primary,
+.ui-widget-content .ui-priority-primary,
+.ui-widget-header .ui-priority-primary {
+	font-weight: bold;
+}
+.ui-priority-secondary,
+.ui-widget-content .ui-priority-secondary,
+.ui-widget-header .ui-priority-secondary {
+	opacity: .7;
+	filter:Alpha(Opacity=70); /* support: IE8 */
+	font-weight: normal;
+}
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled,
+.ui-widget-header .ui-state-disabled {
+	opacity: .35;
+	filter:Alpha(Opacity=35); /* support: IE8 */
+	background-image: none;
+}
+.ui-state-disabled .ui-icon {
+	filter:Alpha(Opacity=35); /* support: IE8 - See #6059 */
+}
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+	width: 16px;
+	height: 16px;
+}
+.ui-icon,
+.ui-widget-content .ui-icon {
+
+}
+.ui-widget-header .ui-icon {
+
+}
+.ui-state-default .ui-icon {
+
+}
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon {
+
+}
+.ui-state-active .ui-icon {
+
+}
+.ui-state-highlight .ui-icon {
+
+}
+.ui-state-error .ui-icon,
+.ui-state-error-text .ui-icon {
+
+}
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+	border-top-left-radius: 4px;
+}
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+	border-top-right-radius: 4px;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+	border-bottom-left-radius: 4px;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+	border-bottom-right-radius: 4px;
+}
+.ui-progressbar {
+	height: 8px;
+	text-align: left;
+	overflow: hidden;
+}
+.ui-progressbar .ui-progressbar-value {
+	margin: -1px;
+	height: 100%;
+	background: #cccccc;
+}
+.ui-progressbar .ui-progressbar-overlay {
+	background: url("data:image/gif;base64,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");
+	height: 100%;
+	filter: alpha(opacity=25); /* support: IE8 */
+	opacity: 0.25;
+}
+.ui-progressbar-indeterminate .ui-progressbar-value {
+	background-image: none;
+}

@@ -1,0 +1,100 @@
+/* ================ popup Prescriptions List FROM MENU=============== */
+.dialog_prescriptions_list .tbl_list_user_prscr thead th:first-child{
+	width:202px;
+}
+.dialog_prescriptions_list .tbl_list_user_prscr thead th:first-child+th+th,
+.dialog_prescriptions_list .tbl_list_user_prscr thead th:first-child+th+th+th{
+	width:125px;
+}
+.dialog_prescriptions_list .tbl_list_user_prscr thead th:first-child+th+th+th+th,
+.dialog_prescriptions_list .tbl_list_user_prscr thead th:first-child+th+th+th+th+th{
+	width:140px;
+}
+.dialog_prescriptions_list #tbl_list_user_prscr tbody tr{
+	cursor:pointer;
+}
+.dialog_prescriptions_list #tbl_list_user_prscr tbody tr:hover td{
+	color: #3bacd6;
+}
+/* ============popup Prescriptions Card FROM MENU================ */
+.dialog_prescriptions_card .div_prscr_date_from input{
+	float: left;
+    margin-bottom: 5px;
+    margin-right: 3px;
+}
+
+/* ============popup Prescriptions List FROM WIDGET============*/
+.dialog_prescriptions_list_widget .prscr_legend_filter{
+    float: left;
+    margin: 10px 0 0;
+    width: 1000px;
+}
+.dialog_prescriptions_list_widget .prscr_legend_filter > li{
+    float: left;
+    width: 250px;
+	padding: 3px 0;
+}
+.dialog_prescriptions_list_widget .prscr_legend_filter .spisok{
+    float: left;
+}
+.dialog_prescriptions_list_widget .prscr_legend_filter .spisok_left{
+    margin-right:5px;
+}
+/* 
+.dialog_prescriptions_list_widget #PRSCR_EXEC_NEW {
+    height: auto !important;
+}
+.dialog_prescriptions_list_widget #modal_dlg_box .pres_ul .prscr_date_from_title {
+    float: left;
+}
+
+.dialog_prescriptions_list_widget #modal_dlg_box .pres_ul .div_prscr_date_from {
+    float: left;
+    text-align: left;
+    width: 210px;
+}*/
+.profile_time {
+    float: right;
+    width: 200px;
+}
+
+.profile_day {
+    float: right;
+    width: 200px;
+}
+
+.profile_day li {
+    float: left;
+    clear: both;
+}
+
+.li_preferred_time .preferred_time,
+.li_preferred_time .profile_time{
+	padding-left:165px !important;
+}
+.li_preferred_time .profile_time .profile_time_hour,
+.prscr_month_day .profile_month_day .span_month_day{
+	float:none;
+	display: inline-block;
+    margin: 0 5px;
+}
+.li_preferred_time h3{
+	padding-right: 0 !important;
+    text-align: right;
+    width: 132px;
+}
+.li_preferred_time .profile_time .checkbox2,
+.prscr_month_day .profile_month_day .checkbox2{
+	display: inline-block;
+	float:none;
+	vertical-align: middle;
+}
+
+.prescriptions_list .ui-dialog-content {
+    width: 968px !important;
+}
+.prescriptions_list .pres_ul+.pres_ul   {
+	width: 450px;
+    margin-left: 0;
+    float: right;	
+}

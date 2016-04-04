@@ -1,0 +1,15 @@
+/*----------popup User Comments-----------*/
+.dialog_my_comments .leave_comment .new_comm_block .comments {
+    width: 835px;
+}
+.dialog_my_comments .wr_new_comm_block textarea.comments {
+    /* width: 875px; */
+    width: 855px;
+	margin: 0;
+	margin-right: 5px;
+}
+
+/*----------popup add User Comments-----------*/
+.dialog_add_my_comments textarea.comments{
+	width:340px;
+}

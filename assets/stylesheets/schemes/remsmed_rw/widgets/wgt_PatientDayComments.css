@@ -1,0 +1,21 @@
+/* ===================widget user comments========================== */
+.leave_comment {
+    display: none;
+    float: left;
+    margin-top: 5px;
+}
+.leave_comment .new_comm_block {
+    height: 54px; 
+    width:auto;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.wblock500 .leave_comment .new_comm_block .comments {
+    width: 290px
+}
+
+.index-div{
+    margin-top: -10px;
+}

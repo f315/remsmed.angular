@@ -1,0 +1,460 @@
+/* ==========  Buttons ========== */
+input[type=reset], 
+input[type=button], 
+button, 
+.button {  
+	padding: 5px 14px 6px 14px; 
+	cursor: pointer; 
+ }
+.basicBtn:hover { background-position: 0 -25px; }
+.basicBtn:active { background-position: 0 -50px; }
+
+.blueBtn:hover { background-position: 0 -25px; }
+.blueBtn:active { background-position: 0 -50px; }
+
+.redBtn:hover { background-position: 0 -25px; }
+.redBtn:active { background-position: 0 -50px; }
+
+.seaBtn:hover { background-position: 0 -25px; }
+.seaBtn:active { background-position: 0 -50px; }
+
+.blackBtn:hover { background-position: 0 -25px; }
+.blackBtn:active { background-position: 0 -50px; }
+
+.greyishBtn:hover { background-position: 0 -25px; }
+.greyishBtn:active { background-position: 0 -50px; }
+
+.greenBtn:hover { background-position: 0 -25px; }
+.greenBtn:active { background-position: 0 -50px; }
+
+.btn14:hover { background: #f6f6f6; }
+.btn14:active { background: #f1f1f1; }
+
+.btn55 { 
+	display: inline-block; 
+	padding: 8px 6px 2px 6px; 
+}
+
+.btn55 span {  
+	display: block; 
+	padding: 5px 5px 0 5px; 
+}
+
+.btnIconLeft { 
+	display: inline-block; 
+}
+.btnIconLeft .icon { 
+	float: left; 
+	padding: 8px; 
+}
+.btnIconLeft span { 
+	display: block; 
+	float: left; 
+	padding: 5px 10px; 
+}
+
+.deplogo{ float: left; padding-right: 16px; }
+.deplogo img { float: left; margin: 8px 8px 8px 0 }
+.deplogo span { 
+	padding: 8px 5px; 
+	display: block; 
+	white-space: nowrap; 
+	float: left; 
+}
+
+.usertop {
+	float:left; 
+	width: 1100px; 
+	min-width: 900px; 
+	margin-top: 12px; 
+}
+.usertop .blind {float:right}
+.searchlog {width:1100px; float:left}
+.searchlog input[type="text"] {
+	float: left; 
+	height: 22px; 
+}
+.searchlog .login {width: 150px; margin-left: 20px; float:right!important}
+.searchlog .search {width:510px}
+
+.logmein {
+	float: right;
+	margin:5px 15px 0px 0px; 
+}
+.userNav { 
+	position: relative; 
+	float: left; 
+	width: 1100px;
+	clear:both;
+	z-index: 6000; 
+}
+.userNav .lastNav {
+	width: 2px; 	
+	height: 36px; 
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+}
+.userNav ul { margin-right: 2px; }
+.userNav ul li { 
+	display: inline; 
+	float: left; 
+	position: relative; 
+	cursor: pointer;
+	}
+.userNav ul li a { 
+	display: block; 
+	float: left; 
+	}
+.userNav ul li span { display: block; padding: 8px 20px 8px 20px; float: left; }
+.userNav ul li img { float: left; display: block; margin: 13px 2px 11px 14px; }
+
+.userNav ul li ul { 
+	position: absolute; 
+	left: -1px; 
+	display: none; 
+	top: 35px; 
+	margin-top: 0px; 
+	padding: 0 1px 1px 1px; 
+	z-index: 100; 
+	}
+.userNav ul li ul li { 
+	display: block; 
+	float: none;  
+	border-right: none; 
+}
+.userNav ul li ul li:first-child { border-left: none!important; }
+.userNav ul li ul li a { 
+	width: 320px; 
+	padding: 6px 10px 6px 15px; 
+	float: none; 
+	}
+
+/* ----------options_buttons----------- */
+.options_buttons {
+    clear:both;
+	text-align:right;
+    padding: 10px 0 2px;
+}
+.options_buttons>a,
+.options_buttons>input[type=submit]{
+	display:inline-block;
+	margin-top: 5px;
+} 
+.options_save, .options_buttons>a:first-child {
+	padding: 5px 15px;
+}
+
+.options_buttons_comm_send{
+	float:right;
+	clear:none;
+	text-align:left;
+    padding: 0;
+} 
+.options_buttons_comm_send a,
+.comm_send .options_buttons a {
+	margin-top: 0;
+}
+.leave_comment .options_buttons {
+	padding-top: 0;
+}
+.not_active{
+	padding: 5px 15px;
+	opacity:0;
+}
+.options_save_org {
+	padding: 5px 15px;
+}
+.options_save_anket {
+	padding: 5px 15px;
+}
+.options_cancel {
+	padding: 5px 15px;
+}
+.options_others{
+	padding: 5px 15px;
+}
+.options_admin_btn {
+	padding: 5px 15px;
+	}
+.options_buttons_admin {margin-top: 45px;margin-bottom: 15px;}
+.options_delete {
+	padding: 5px 15px;
+}
+
+/* ------------------- */
+.comm_send {
+    float:right;
+}
+.btn-block {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.btn{
+    width: 25px !important;
+    height: 25px;
+	padding: 0 !important;
+	cursor: pointer;
+}
+.widget_mini_del {
+	display: inline-block;
+    background-position: 0px -1px;
+	height: 20px;
+    width: 20px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.widget_mini_del:hover {
+    background-position: 0px -21px;
+}
+
+.download_mini {    
+	display: inline-block;
+    background-position: -3px 1px;
+	height: 20px;
+    width: 22px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.download_mini:hover {
+    background-position: 0px -23px;
+}
+/* ===============widget header buttons=============== */
+.wswitch {
+	display:inline-block;
+	min-width:27px;
+	min-height:38px;
+	vertical-align: middle;
+}
+.wswitchopen {
+	height: 13px;
+	width: 16px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 11px;
+	background-position:0 -25px;
+}
+.wswitchopen:hover {
+	background-position:0 -37px;
+}
+.wswitchopen:active {
+	background-position:0 -37px;
+}
+.wswitchclose {
+	height: 13px;
+	width: 16px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 11px;
+	 background-position:0 0;
+ }
+.wswitchclose:hover {
+background-position:0 -12px;
+}
+.wswitchclose:active {
+background-position:0 -12px;
+}
+
+.wswitchfullw {
+	height: 14px !important;
+	width: 16px;
+	float: left;
+	margin-top: 14px;
+	margin-left: 11px;
+	background-position:0 0;
+}
+.wswitchfullw:hover {
+background-position:0 -15px;
+}
+.wswitchfullw:active {
+background-position:0 -15px;
+}
+table .wswitchfullw{
+	margin: 0;
+}
+.box_btn {
+    display:inline-block;
+    padding:5px 1px 5px 6px;
+}
+.box_btn a {
+	display:inline-block;
+    width: 16px;
+    height: 15px;
+    margin-top: 4px;
+}
+.box_btn a:hover {
+    background-position:0px -15px;
+}
+.box_btn.add a {
+	vertical-align: middle;
+}
+.box_btn.select_pat a:hover {
+    background-position:0px -15px;
+}
+.box_btn.edit a {
+    height: 21px;
+    width: 22px;
+}
+.wblock .whead .box_btn{
+	position:absolute;
+	top:12px;
+	height: 24px;
+	padding-left:0;
+	padding-right:0;
+}
+.btn_helps{
+	right:53px;
+}
+.btn_save{
+	padding-left: 3px !important;
+    right: 73px;
+}
+.btn_save a{
+	margin-top:6px;
+}
+.box_btn.add{
+	padding-left: 3px !important;
+    right: 73px;
+}
+.box_btn.select_pat{
+	padding-left: 3px !important;
+    right: 73px;
+}
+.woptions {
+	display:inline-block;
+	vertical-align: middle;
+	position: absolute;
+    right: 10px;
+    top: 20px;
+}
+.woptions a.btnBoxOptions {
+	display:inline-block;
+	height: 19px;
+	width: 18px;
+	background-position:0 1px;
+}
+.woptions a.btnBoxOptions:hover {
+background-position:0 -17px;
+}
+.woptions a.btnBoxOptions:active {
+background-position:0 -17px;
+}
+.new_msrm_window .options_buttons{
+	clear:none;
+}
+.current_user_role_admin .Box_KnowledgeBase .box_btn.add,
+.current_user_role_admin .Box_UserMessages .box_btn.add{
+	right:56px;
+}
+/* ============Two button pagination - previous / next============ */
+.paginate_disabled_previous,
+.paginate_enabled_previous,
+.paginate_disabled_next,
+.paginate_enabled_next {
+    height: 19px;
+    float: left;
+    cursor: pointer;
+}
+
+.paginate_disabled_previous:active,
+.paginate_enabled_previous:active,
+.paginate_disabled_next:active,
+.paginate_enabled_next:active {
+    outline: none;
+}
+
+.paginate_disabled_previous,
+.paginate_enabled_previous {
+    padding-left: 23px;
+}
+.paginate_disabled_next,
+.paginate_enabled_next {
+    padding-right: 23px;
+    margin-left: 10px;
+}
+/* Full number pagination */
+.paging_full_numbers {
+    height: 22px;
+    line-height: 22px;
+}
+.paging_full_numbers a.ui-button {
+    margin-left: 10px;
+}
+.paging_full_numbers a:active {
+    outline: none;
+}
+.paging_full_numbers a:hover {
+    text-decoration: none;
+}
+
+.paging_full_numbers a.paginate_button,
+.paging_full_numbers a.paginate_active {
+    padding: 2px 5px;
+    margin: 0 3px;
+}
+/* ----------- */
+.setup_buttons {
+	float: right;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	clear:both
+	}
+.setup_save {
+	padding: 5px 15px;
+}
+.setup_cancel {
+	padding: 5px 15px;
+}
+
+.big_add_outline {
+	float: left;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+/* ==========datepicker============== */
+.ui-datepicker-trigger{
+    width: auto;
+	background-color: transparent;
+    border: medium none;
+    box-shadow: none;
+    padding: 0 5px 0 3px;
+    line-height: 20px; /* for vertical align */
+    vertical-align: middle;
+}
+/* ===============ToolTables========== */
+.ui-buttonset a.DTTT_button{
+	margin-right:2px;
+	color:#fff;
+}
+.ui-buttonset a.DTTT_disabled{
+	color:#b1b1b1;
+}
+/* =============== buttom show/hide block ========== */
+/* applay: 	popup Measurements from widget Values, popup New Measurements from widget My Journal
+*/
+.new_window_arrow {
+	display:inline-block;
+	height:32px; 
+	width:32px;  
+	vertical-align:middle;
+}
+.new_window_arrow:hover {
+    background-position:0px -31px;
+}
+.new_window_arrow + span{
+	vertical-align:middle;
+}
+/* =============== buttons dataTable in the bottom========== */
+.dataTables_paginate + div.DTTT_container{
+	width: 100%;
+	margin-top: 7px;
+}
+.dataTables_paginate +  div.DTTT_container .DTTT_button{
+	float: right;
+}

@@ -1,0 +1,20 @@
+/* =========block Patient Info=========== */
+#Box_PatientInfo .wbstats{
+    width:103px!important;
+}
+#Box_PatientInfo .jcarousel {
+    width:73px;
+}
+.Box_PatientInfo .block_left {
+    float: left;
+    height: 135px;
+    padding: 25px 0px 10px 0px;
+    text-align: center;
+}
+.Box_PatientInfo .block_left .patient_name{
+    padding-top: 5px;
+}
+.Box_PatientInfo .wr_profile_avatar img{
+    padding: 5px;
+    height: 71px;
+}
