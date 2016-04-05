@@ -1,6 +1,7 @@
 ﻿.wblock{
 	float:left;
-	margin:2px
+	margin:2px;
+    height: 220px;
 }
 .wblock250 {width:246px;}
 .wblock500 {width:496px;}

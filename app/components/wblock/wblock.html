@@ -1,0 +1,17 @@
+<div class="wblock {{ $ctrl.wparams.wclass }}" id="{{ $ctrl.wparams.wid }}">
+    <div class="whead">
+        <div class="whead_name ">
+            <span class="wr_inner_df"> {{ $ctrl.wparams.wtitle }} </span>
+        </div>
+        <div class="woptions">
+            <a href="#" class="btnBoxOptions" title="Настройки"></a>
+        </div>
+    </div>
+    <div ng-if="$ctrl.wparams.wid === 'Box_PatientInfo'">
+        <wcontent-patient-info></wcontent-patient-info>
+    </div>
+    <div ng-if="$ctrl.wparams.wid === 'Box_PatientLastMeasurements'">
+        <wcontent-patient-last-measurements></wcontent-patient-last-measurements>
+    </div>
+    <div class="wbottom "></div>
+</div>

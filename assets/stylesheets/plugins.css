@@ -5,6 +5,7 @@
 @import "plugins/jquery.slider.css";
 @import "plugins/fullcalendar.css";
 @import "plugins/datepick/redmond.datepick.css";
+@import "plugins/datepick/jquery-ui-timepicker-addon.css";
 @import "plugins/validationEngine.jquery.css";
 @import "plugins/timeline.css";
 @import "plugins/tabletools.css";

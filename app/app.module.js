@@ -1,8 +1,6 @@
-angular.module('app', ['ui.router'])
+angular
+    .module('app', ['ui.router'])
 
-    .component('main', {
-        templateUrl: 'app/components/main/main.html'
-    })
     .component('header', {
         templateUrl:'app/components/header/header.html'
     })
@@ -41,21 +39,21 @@ angular.module('app', ['ui.router'])
             WblockService.getData().then((response) => {
                 this.data = response.data;
             //debugger
-            });
-        }
-    })
-    .service('WblockService', function($http){
-        this.boxPatientInfo = {
-            wid: 'Box_PatientInfo',
-            wclass: 'Box_PatientInfo wblock500',
-            wtitle: 'Мой профиль'
-        };
-        this.boxPatientLastMeasurements = {
-            wid: 'Box_PatientLastMeasurements',
-            wclass: 'Box_PatientLastMeasurements wblock500',
-            wtitle: 'Текущие показатели состояния'
-        };
-        this.getData = function() {
-            return $http.get('https://shining-heat-2805.firebaseio.com/dataRemsmed.json');
-        };
-    })
+        });
+}
+})
+.service('WblockService', function($http){
+    this.boxPatientInfo = {
+        wid: 'Box_PatientInfo',
+        wclass: 'Box_PatientInfo wblock500',
+        wtitle: 'Мой профиль'
+    };
+    this.boxPatientLastMeasurements = {
+        wid: 'Box_PatientLastMeasurements',
+        wclass: 'Box_PatientLastMeasurements wblock500',
+        wtitle: 'Текущие показатели состояния'
+    };
+    this.getData = function() {
+        return $http.get('https://shining-heat-2805.firebaseio.com/dataRemsmed.json');
+    };
+})
