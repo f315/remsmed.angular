@@ -4,9 +4,14 @@ angular
 
 function config($stateProvider, $urlRouterProvider){
     $stateProvider
-        .state('/index', {
+        .state('index', {
             url:'/index',
             template: '<main></main>'
-        });
+        })
+            .state('profile', {
+                parent:'index',
+                url: '/:params',
+                template: '<profile></profile>'
+});
     $urlRouterProvider.otherwise('/index');
 }

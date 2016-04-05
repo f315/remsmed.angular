@@ -1,0 +1,379 @@
+<div class="ui-dialog ui-widget ui-widget-content ui-corner-all prescriptions_list ui-draggable" tabindex="-1" style="outline: 0px; z-index: 1002; height: auto; width: 1000px; top: 86px; left: 133px; display: block;" role="dialog" aria-labelledby="ui-id-7"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-7" class="ui-dialog-title"><h3 class="ui-dialog-title">Мой профиль</h3></span><a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div id="modal_dlg_box" class="ui-dialog-content ui-widget-content" style="display: block; width: auto; min-height: 0px; height: auto;" scrolltop="0" scrollleft="0"><div class="tabs profile ui-tabs ui-widget ui-widget-content ui-corner-all">
+<input type="hidden" name="p_dt" value="05.04.2016">
+<input type="hidden" name="p_user_id" class="p_user_id" value="69">
+<ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all" role="tablist">
+    <li class="tabs_nav ui-state-default ui-corner-top ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="tab_user_info" aria-labelledby="ui-id-8" aria-selected="true"><a href="#tab_user_info" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-8">Персональные данные</a></li>
+    <li class="tabs_nav ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tab_user_med_data" aria-labelledby="ui-id-9" aria-selected="false"><a href="#tab_user_med_data" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-9">Медицинские данные</a></li>
+    <li class="tabs_nav ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tab_user_apps" aria-labelledby="ui-id-10" aria-selected="false"><a href="#tab_user_apps" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-10">Приложения</a></li>
+    <li class="tabs_nav ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tab_notification" aria-labelledby="ui-id-11" aria-selected="false"><a href="#tab_notification" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-11">Настройка уведомлений</a></li>
+    <li class="tabs_nav ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tab_change_pass" aria-labelledby="ui-id-12" aria-selected="false"><a href="#tab_change_pass" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-12">Сменить пароль</a></li>
+</ul>
+<div id="tab_user_info" class="prescription profile_ul validationEngineContainer ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-8" role="tabpanel" aria-expanded="true" aria-hidden="false" style="display: block;">
+    <input type="hidden" name="p_user_dt" value="">
+    <input type="hidden" name="p_uid" value="69">
+    <div class="container" data-source="/profile/print_user_info_fields/user_id69/read_only0">
+        <ul class="pres_ul">
+            <input type="hidden" id="p_role_id" name="p_role_id" value="6">
+            <li class="show_patient" id="li_patient_num">
+                <p>Код пациента: <span class="requirement">*</span></p>
+                <input type="text" value="" name="u_patient_num" maxlength="20" id="u_patient_num" readonly="readonly">
+            </li>
+            <li class="show_patient" id="li_number_of_history_disease">
+                <p>Номер истории болезни: </p>
+                <input type="text" value="" name="u_number_of_history_disease" maxlength="100" id="u_number_of_history_disease" readonly="readonly">
+            </li>
+            <li class="show_doctor show_admin show_assistant show_manager show_patient" id="li_last_name">
+                <p>Фамилия: <span class="requirement">*</span></p>
+                <input type="text" value="Кузнецов" name="u_last_name" class="validate[required]" maxlength="20" id="u_last_name">
+            </li>
+            <li class="show_doctor show_admin show_assistant show_manager show_patient" id="li_first_name">
+                <p>Имя: <span class="requirement">*</span></p>
+                <input type="text" value="Иван" name="u_first_name" class="validate[required]" maxlength="20" id="u_first_name">
+            </li>
+            <li class="show_doctor show_admin show_assistant show_manager show_patient" id="li_middle_name">
+                <p>Отчество:</p>
+                <input type="text" value="Сергеевич" name="u_middle_name" id="u_middle_name" class="" maxlength="20">
+            </li>
+            <li>
+                <p>Электронная почта:</p>
+                <input type="text" class="u_email" id="u_email" name="u_email" value="ptarakanov1@fors.ru">
+            </li>
+            <li class="show_patient" id="li_birth_date">
+                <p>Дата рождения:</p>
+                <input type="text" class="datepicker  maxDateSysdate changeMonth changeYear  hasDatepicker" name="u_birth_dt" value="03.02.1970" readonly="readonly" id="dp1459854480871">
+            </li>
+            <li class="show_patient show_doctor show_admin show_assistant" id="li_sex">
+                <p>Пол:</p>
+                <div id="sex_radio" class="wr_sex_radio ui-buttonset">
+                    <input type="radio" name="u_sex" checked="checked" value="1" class="sex_radio ui-helper-hidden-accessible" id="u_sex_1">
+                    <label for="u_sex_1" class="ui-state-active ui-button ui-widget ui-state-default ui-button-text-only ui-corner-left" role="button" aria-disabled="false"><span class="ui-button-text">муж.</span></label>
+                    <input type="radio" name="u_sex" value="2" class="sex_radio ui-helper-hidden-accessible" id="u_sex_2">
+                    <label for="u_sex_2" class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-right" role="button" aria-disabled="false"><span class="ui-button-text">жен.</span></label>
+                </div>
+            </li>
+            <li class="show_patient">
+                <p>Адрес регистрации :</p>
+                <input type="text" value="" name="u_reg_address" class="" maxlength="150">
+            </li>
+            <li class="show_patient">
+                <p>Фактический адрес:</p>
+                <input type="text" value="" name="u_actual_address" class="" maxlength="150">
+            </li>
+            <li>
+                <p>Телефоны: <span class="requirement">*</span></p>
+                <input type="text" class="validate[required]" value="1111111" name="u_telephones" maxlength="150">
+            </li>
+            <li>
+                <p>Обращение:</p>
+                <select name="u_salutation" class=""><option selected="selected" value="83">Mr.</option><option value="84">Mrs.</option><option value="85">Miss</option><option value="86">Ms.</option><option value="87">Dr.</option></select>
+            </li>
+            <li>
+                <p>Временная зона:</p>
+                <select name="u_user_time_zone" class=""><option value="+00:00">(GMT) Greenwich Mean Time</option><option value="CET">(CET) Switzerland</option><option selected="selected" value="+03:00">(GMT +03:00) Volgograd, Moscow, St. Petersburg</option></select>
+            </li>
+            <li>
+                <p>Язык:</p>
+                <select name="u_lang_id" class=""><option></option><option value="es">Spain</option><option value="en">English</option><option selected="selected" value="ru">Русский</option><option value="de">German (Germany)</option></select>
+            </li>
+            <li>
+                <p>Система измерения:</p>
+                <select name="u_med_measure_system" id="u_med_measure_system" class=""><option selected="selected">SI</option><option>US</option></select>
+            </li>
+        </ul>
+        <ul class="pres_ul">
+            <li>
+                <p>Уведомление по e-mail:</p>
+                <div class="checkbox2" style="background-position: center 0px;">
+                    <input type="checkbox" id="u_email_notif" name="u_email_notif" class="" value="1">
+                </div>
+            </li>
+            <li>
+                <p>Уведомление по SMS:</p>
+                <div class="checkbox2" style="background-position: center 0px;">
+                    <input type="checkbox" id="u_sms_notif" name="u_sms_notif" class="" value="1">
+                </div>
+            </li>
+            <li>
+                <p>Телефон для sms: <span class="phone_req" style="color:red;display:none;">*</span></p>
+                <div class="inputs_block">
+                    <select id="u_reg_code" name="u_reg_code" class="" value="">
+                        <option value="49" selected="selected">Germany +49</option>
+                        <option value="7">Russia +7</option>
+                        <option value="41">Switzerland +41</option>
+                        <option value="1">USA +1</option>
+                    </select>
+                    <input type="text" value="" name="u_telephone_for_sms" id="u_telephone_for_sms" class="validate[condRequired[u_sms_notif]]" maxlength="10">
+                </div>
+            </li>
+            <li class="show_patient">
+                <p>Медицинский полис:</p>
+                <div class="inputs_block">
+                    <span class="dialog_span mt0">Номер:</span>
+                    <input type="text" value="" name="u_med_policy_num" maxlength="20" id="u_med_policy_num" class="">
+                    <span class="dialog_span mt0">Компания:</span>
+                    <input type="text" value="" name="u_med_policy_company" class="" maxlength="100">
+                    <span class="dialog_span mt0">Комментарий:</span>
+                    <input type="text" value="" name="u_med_policy_comment" class="" maxlength="500">
+                </div>
+            </li>
+            <li class="show_patient" style="display:none">
+                <p>Паспортные данные:</p>
+                <input type="text" value="" name="u_passport_data" id="u_passport_data" class="" maxlength="250">
+            </li>
+            <li class="show_doctor" style="display:none">
+                <p>Медицинская лицензия</p>
+                <input type="text" value="" name="u_licence_num" id="u_licence_num" maxlength="50">
+            </li>
+            <li class="show_doctor" style="display:none">
+                <p>Ученая степень:</p>
+                <select name="u_academic_degree" class=""><option selected="selected"></option><option value="450">Кандидат наук</option><option value="451">Доктор наук</option><option value="452">Профессор</option><option value="691">Доцент</option></select>
+            </li>
+            <li class="show_doctor" style="display:none">
+                <p>Квалификационная категория:</p>
+                <select name="u_qualification_category" class=""><option selected="selected"></option><option value="454">Высшая квалификационная категория</option><option value="455">Первая квалификационная категория</option><option value="456">Вторая квалификационная категория</option></select>
+            </li>
+            <li class="show_patient">
+                <p>Амбулаторная карта:</p>
+                <input type="text" value="" name="u_clinic_card" id="u_clinic_card" class="" maxlength="250">
+            </li>
+            <li class="show_patient">
+                <p>Контакты доверенного лица:</p>
+                <input type="hidden" name="id">
+                <input type="hidden" id="relationship_tm_user_relationship_id" name="relationship_tm_user_relationship_id" value="61">
+            </li>
+            <li class="show_patient">
+                <p>Фамилия:</p>
+                <input type="text" value="" name="relationship_last_name" maxlength="100" id="relationship_last_name">
+            </li>
+            <li class="show_patient">
+                <p>Имя:</p>
+                <input type="text" value="" name="relationship_first_name" maxlength="100" id="relationship_first_name">
+            </li>
+            <li class="show_patient">
+                <p>Телефоны:</p>
+                <input type="text" value="" name="relationship_phone" maxlength="100" id="relationship_phone">
+            </li>
+            <li class="show_patient">
+                <p>Степень родства:</p>
+                <select name="relationship_relationship" class="relationship_relationship"><option selected="selected"></option><option value="419">Брат</option><option value="422">Друг</option><option value="421">Жена</option><option value="10140">Кум</option><option value="417">Мать</option><option value="420">Муж</option><option value="416">Отец</option><option value="418">Сестра</option><option value="690">ааа</option></select>
+            </li>
+            <li>
+                <p>Личное фото:</p>
+                <input type="file" accept="image/*" name="u_avatar_file_name" class="file_photo_profile fileInput validate[custom[imageFile]]" maxlength="255">
+            </li>
+            <li class="wr_profile_avatar">
+                <img class="profile_avatar" ng-src="assets/images/icons/avatar_01.jpg" width="90" height="90" border="0" alt="">
+            </li>
+        </ul>
+    </div>
+    <div class="options_buttons">
+        <div id="div_user_id">
+            <input type="hidden" name="p_user_id" value="69">
+        </div>
+        <a href="/dyn/profile/profile_action" class="options_save profile_options_save notautoclose [sendAction:SAVEUSERINFO]">Сохранить</a>
+        <a href="#" class="options_cancel">Отменить</a>
+    </div>
+</div>
+<div id="tab_user_med_data" class="prescription profile_tab validationEngineContainer ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-9" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+    <input type="hidden" name="p_user_dt" value="">
+    <input type="hidden" name="p_uid" value="69">
+    <div class="container" data-source="/profile/print_user_med_data_fields/user_id69/read_only0">
+        <ul class="pres_ul">
+            <li>
+                <p>Рост:</p>
+                <input type="text" name="u_med_height" id="u_med_height" class="w100 validate[custom[number]]" maxlength="5" value="">
+                <span>см</span>
+            </li>
+            <li>
+                <p>Вес:</p>
+                <input type="text" name="u_med_weight" id="u_med_weight" class="w100 validate[custom[number],min[],max[]]" maxlength="5" value="80">
+                <span>кг</span>
+            </li>
+            <li>
+                <p>Индекс массы тела:</p>
+                <input id="body_mass_index" type="text" class="w100 " maxlength="5" value="" readonly="readonly">
+            </li>
+            <li>
+                <p>Группа крови:</p>
+                <select name="u_med_blood_group" class=""><option selected="selected">1</option><option>2</option><option>3</option><option>4</option></select>
+            </li>
+            <li>
+                <p>Резус-фактор:</p>
+                <select name="u_med_rh_factor" class=""><option selected="selected" value="0">-</option><option value="1">+</option></select>
+            </li>
+        </ul>
+        <ul class="pres_ul">
+            <li>
+                <p>Инвалидность:</p>
+                <div class="checkbox2" style="background-position: center 0px;">
+                    <input type="checkbox" id="u_med_disability" name="u_med_disability" class="" value="1">
+                </div>
+            </li>
+            <li>
+                <p>Группа инвалидности: <span id="u_med_disability_indicate" class="disab_group_req" style="color:red;display:none;">*</span></p>
+                <select name="u_med_disability_group" id="u_med_disability_group" class="group-disability validate[condRequired[u_med_disability]]" sb="46882781" style="opacity: 0; width: 0px; display: inline-block;"><option selected="selected"></option><option>1</option><option>2</option><option>3</option></select><div id="sbHolder_46882781" class="sbHolder"><a id="sbToggle_46882781" href="#" class="sbToggle"></a><a id="sbSelector_46882781" href="#" class="sbSelector"></a><ul id="sbOptions_46882781" class="sbOptions" style="display: none;"><li><a href="#" rel="" class="sbFocus"></a></li><li><a href="#1" rel="1">1</a></li><li><a href="#2" rel="2">2</a></li><li><a href="#3" rel="3">3</a></li></ul></div>
+            </li>
+            <li>
+                <p>Аллергии:</p>
+                <textarea rows="4" cols="100" id="u_med_allergies" name="u_med_allergies" maxlength="2000"></textarea>
+            </li>
+            <li>
+                <p>Осложнения:</p>
+                <textarea rows="4" cols="100" id="u_med_health_complications" name="u_med_health_complications" maxlength="2000"></textarea>
+            </li>
+            <li>
+                <p>Жалобы:</p>
+                <textarea rows="4" cols="100" id="u_med_complaints" name="u_med_complaints" maxlength="2000"></textarea>
+            </li>
+        </ul>
+    </div>
+    <div class="options_buttons">
+        <a href="/dyn/profile/profile_action" class="options_save notautoclose [sendAction:SAVEUSERMEDDATA]">Сохранить</a>
+        <a href="#" class="options_cancel">Отменить</a>
+    </div>
+</div>
+<div id="tab_user_apps" class="prescription profile_tab validationEngineContainer ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-10" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+    <input type="hidden" name="p_user_dt" value="">
+    <input type="hidden" name="p_uid" value="69">
+    <div class="container" data-source="/profile/print_user_app_fields/user_id69/read_only0">
+        <ul class="pres_ul">
+            <li>
+                <p>Подключено к WiThings-аккаунту:</p>
+                нет<br>
+                <a href="#" class="btn_withings_connecting" data-link="/withings/connecting">Подключиться</a>
+            </li>
+            <li>
+                <p>Подключено к VitaDock-аккаунту:</p>
+                нет<br>
+                <a href="#" class="btn_vitadock_connecting" data-link="/vitadock/connecting">Подключиться</a>
+            </li>
+            <li>
+                <p>Подключено к iHealth-аккаунту:</p>
+                нет<br>
+                <a href="#" class="btn_ihealth_connecting" data-link="https://api.ihealthlabs.com:8443/OpenApiV2/OAuthv2/userauthorization/?client_id=cea5b061232d48e79722dc447ed19732&amp;response_type=code&amp;redirect_uri=http://iapp.remsmed.mosfile.ru/ihealth?p_uid=69&amp;APIName=OpenApiBP&amp;RequiredAPIName=OpenApiBG+OpenApiBP+OpenApiSpO2+OpenApiWeight+OpenApiUserInfo">Подключиться</a>
+            </li>
+        </ul>
+    </div>
+    <div class="options_buttons">
+        <a href="/dyn/profile/profile_action" class="options_save [sendAction:SAVEAPPS]">Сохранить</a>
+        <a href="#" class="options_cancel">Отменить</a>
+    </div>
+</div>
+<div id="tab_notification" class="prescription profile_ul ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-11" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+    <div id="tm_user_notification">
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" id="tbl_tm_user_notification">
+            <thead>
+            <tr>
+                <th>Настройка уведомлений</th>
+                <th style="width: 100px;">Показывать в системе</th>
+                <th style="width: 100px;">Оповещать по e-mail</th>
+                <th style="width: 100px;">Оповещать по смс</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>О новых сообщениях</td>
+                <td style="width: 100px;">
+                    <div style="width: 20px; margin: 0 auto;">
+                        <input type="checkbox" id="iis_actual_system_1" name="iis_actual_system_1" value="1">
+                    </div>
+                </td>
+                <td style="width: 100px;">
+                    <div style="width: 20px; margin: 0 auto;">
+                        <input type="checkbox" id="iis_actual_email_1" name="iis_actual_email_1" value="1">
+                    </div>
+                </td>
+                <td style="width: 100px;">
+                    <div style="width: 20px; margin: 0 auto;">
+                        <input type="checkbox" id="iis_actual_sms_1" name="iis_actual_sms_1" value="1">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>О новых назначениях/об изменении назначений</td>
+                <td style="width: 100px;">
+                    <div style="width: 20px; margin: 0 auto;">
+                        <input type="checkbox" id="iis_actual_system_2" name="iis_actual_system_2" value="1">
+                    </div>
+                </td>
+                <td style="width: 100px;">
+                    <div style="width: 20px; margin: 0 auto;">
+                        <input type="checkbox" id="iis_actual_email_2" name="iis_actual_email_2" value="1">
+                    </div>
+                </td>
+                <td style="width: 100px;">
+                    <div style="width: 20px; margin: 0 auto;">
+                        <input type="checkbox" id="iis_actual_sms_2" name="iis_actual_sms_2" value="1">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Предварительное уведомление о назначении за 15 минут до времени назначения</td>
+                <td style="width: 100px;">
+                    <div style="width: 20px; margin: 0 auto;">
+                        <input type="checkbox" id="iis_actual_system_5" name="iis_actual_system_5" value="1">
+                    </div>
+                </td>
+                <td style="width: 100px;">
+                    <div style="width: 20px; margin: 0 auto;">
+                        <input type="checkbox" id="iis_actual_email_5" name="iis_actual_email_5" value="1">
+                    </div>
+                </td>
+                <td style="width: 100px;">
+                    <div style="width: 20px; margin: 0 auto;">
+                        <input type="checkbox" id="iis_actual_sms_5" name="iis_actual_sms_5" value="1">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Уведомление о пропущенном назначении</td>
+                <td style="width: 100px;">
+                    <div style="width: 20px; margin: 0 auto;">
+                        <input type="checkbox" id="iis_actual_system_6" name="iis_actual_system_6" value="1">
+                    </div>
+                </td>
+                <td style="width: 100px;">
+                    <div style="width: 20px; margin: 0 auto;">
+                        <input type="checkbox" id="iis_actual_email_6" name="iis_actual_email_6" value="1">
+                    </div>
+                </td>
+                <td style="width: 100px;">
+                    <div style="width: 20px; margin: 0 auto;">
+                        <input type="checkbox" id="iis_actual_sms_6" name="iis_actual_sms_6" value="1">
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <div style="" class="options_buttons">
+            <a rel=".curator_dialog" href="/dyn/profile/action_notification" class="options_save [sendAction:SAVE]">Сохранить</a>
+            <a href="#" class="options_cancel">Отменить</a>
+        </div>
+    </div>
+</div>
+<div id="tab_change_pass" class="prescription profile_tab validationEngineContainer ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-12" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+    <input type="hidden" name="p_user_dt" value="">
+    <input type="hidden" name="p_uid" value="69">
+    <div class="container" data-source="/profile/print_change_pass_fields/user_id69">
+        <ul class="pres_ul">
+            <li>
+                <p>Старый пароль:</p>
+                <input type="password" maxlength="20" name="p_user_old_password" id="p_user_old_password" class="validate[required]">
+            </li>
+            <li>
+                <p>Новый пароль:</p>
+                <input type="password" maxlength="20" name="p_user_new_password" id="p_user_new_password1" class="validate[required,minSize[8]]">
+            </li>
+            <li>
+                <p>Подтвердите пароль:</p>
+                <input type="password" maxlength="20" name="" id="p_user_new_password2" class="validate[required,equals[p_user_new_password1]] nosending">
+            </li>
+        </ul>
+    </div>
+    <div class="options_buttons">
+        <a href="/dyn/profile/profile_action" class="options_save  notautoclose [sendAction:CHANGEPASSWORD]">Сохранить</a>
+        <a href="#" class="options_cancel">Отменить</a>
+    </div>
+</div>
+</div>
+</div></div>
